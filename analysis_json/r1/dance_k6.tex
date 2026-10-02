@@ -1,0 +1,83 @@
+% K = 6, ba, 4M model, alpha 0.02, 40 conditions
+\begin{tabular}{llcccc}
+\toprule
+Method & $N$ & Reward [95\% CI] & PFC & $W_1$ & diversity \\
+\midrule
+base & 1 & $0.236$ $[0.228, 0.243]$ & 1.70 & 0.0078 & 0.178 \\
+best-of-N (draw) & 8 & $0.292$ $[0.283, 0.301]$ & 1.58 & 0.0075 & 0.180 \\
+best-of-N (argmax) & 8 & $0.296$ $[0.288, 0.304]$ & 1.75 & 0.0079 & 0.178 \\
+chunk pruning & 8 & $0.376$ $[0.365, 0.387]$ & 1.90 & 0.0078 & 0.181 \\
+boundary (draw) & 8 & $0.310$ $[0.298, 0.323]$ & 1.69 & 0.0079 & 0.185 \\
+boundary (argmax) & 8 & $0.331$ $[0.319, 0.343]$ & 1.75 & 0.0078 & 0.177 \\
+dense (draw) & 8 & $0.321$ $[0.308, 0.334]$ & 1.91 & 0.0077 & 0.185 \\
+dense (argmax) & 8 & $0.347$ $[0.333, 0.360]$ & 2.03 & 0.0079 & 0.182 \\
+best-of-N (draw) & 32 & $0.323$ $[0.311, 0.335]$ & 1.82 & 0.0078 & 0.178 \\
+best-of-N (argmax) & 32 & $0.333$ $[0.322, 0.344]$ & 1.69 & 0.0077 & 0.179 \\
+chunk pruning & 32 & $0.410$ $[0.396, 0.424]$ & 2.13 & 0.0086 & 0.176 \\
+boundary (draw) & 32 & $0.340$ $[0.324, 0.357]$ & 1.74 & 0.0076 & 0.179 \\
+boundary (argmax) & 32 & $0.393$ $[0.373, 0.412]$ & 1.91 & 0.0079 & 0.180 \\
+dense (draw) & 32 & $0.344$ $[0.328, 0.359]$ & 1.85 & 0.0084 & 0.177 \\
+dense (argmax) & 32 & $0.400$ $[0.382, 0.417]$ & 1.85 & 0.0085 & 0.176 \\
+boundary (draw), alpha 0.01 & 32 & $0.417$ $[0.398, 0.437]$ & 2.00 & 0.0086 & 0.180 \\
+boundary (argmax), alpha 0.01 & 32 & $0.436$ $[0.417, 0.454]$ & 1.79 & 0.0082 & 0.181 \\
+dense (draw), alpha 0.01 & 32 & $0.420$ $[0.399, 0.443]$ & 2.06 & 0.0083 & 0.174 \\
+dense (argmax), alpha 0.01 & 32 & $0.441$ $[0.420, 0.462]$ & 2.11 & 0.0087 & 0.174 \\
+\midrule
+boundary (argmax) $-$ chunk pruning & 32 & $-0.017$ $[-0.024, -0.010]$$^*$ & & & \\
+boundary (argmax) $-$ best-of-N (argmax) & 32 & $+0.060$ $[+0.050, +0.069]$$^*$ & & & \\
+boundary (draw) $-$ best-of-N (draw) & 32 & $+0.017$ $[+0.008, +0.027]$$^*$ & & & \\
+boundary (draw) $-$ chunk pruning & 32 & $-0.069$ $[-0.077, -0.062]$$^*$ & & & \\
+dense (argmax) $-$ chunk pruning & 32 & $-0.010$ $[-0.016, -0.004]$$^*$ & & & \\
+dense (argmax) $-$ best-of-N (argmax) & 32 & $+0.067$ $[+0.058, +0.075]$$^*$ & & & \\
+dense (draw) $-$ best-of-N (draw) & 32 & $+0.021$ $[+0.011, +0.032]$$^*$ & & & \\
+dense (draw) $-$ chunk pruning & 32 & $-0.066$ $[-0.074, -0.058]$$^*$ & & & \\
+dense (argmax) $-$ boundary (argmax) & 32 & $+0.007$ $[+0.000, +0.014]$$^*$ & & & \\
+dense (draw) $-$ boundary (draw) & 32 & $+0.003$ $[-0.009, +0.015]$ & & & \\
+boundary (argmax) $-$ boundary (draw) & 32 & $+0.052$ $[+0.044, +0.061]$$^*$ & & & \\
+dense (argmax) $-$ dense (draw) & 32 & $+0.056$ $[+0.046, +0.066]$$^*$ & & & \\
+boundary (argmax), alpha 0.01 $-$ chunk pruning & 32 & $+0.026$ $[+0.019, +0.033]$$^*$ & & & \\
+boundary (draw), alpha 0.01 $-$ chunk pruning & 32 & $+0.008$ $[-0.001, +0.016]$ & & & \\
+dense (argmax), alpha 0.01 $-$ chunk pruning & 32 & $+0.031$ $[+0.021, +0.042]$$^*$ & & & \\
+dense (draw), alpha 0.01 $-$ chunk pruning & 32 & $+0.010$ $[-0.001, +0.022]$ & & & \\
+boundary (argmax), alpha 0.01 $-$ boundary (argmax) & 32 & $+0.043$ $[+0.038, +0.048]$$^*$ & & & \\
+dense (argmax), alpha 0.01 $-$ dense (argmax) & 32 & $+0.041$ $[+0.032, +0.051]$$^*$ & & & \\
+boundary (argmax), alpha 0.01 $-$ best-of-N (argmax) & 32 & $+0.103$ $[+0.092, +0.113]$$^*$ & & & \\
+dense (argmax), alpha 0.01 $-$ best-of-N (argmax) & 32 & $+0.108$ $[+0.096, +0.120]$$^*$ & & & \\
+\bottomrule
+\end{tabular}
+
+% K = 6, rep, 4M model, alpha 0.02, 40 conditions
+\begin{tabular}{llcccc}
+\toprule
+Method & $N$ & Reward [95\% CI] & PFC & $W_1$ & diversity \\
+\midrule
+base & 1 & $0.712$ $[0.616, 0.798]$ & 1.70 & 0.0078 & 0.178 \\
+best-of-N (draw) & 8 & $0.817$ $[0.715, 0.906]$ & 1.61 & 0.0079 & 0.162 \\
+best-of-N (argmax) & 8 & $0.820$ $[0.717, 0.914]$ & 1.61 & 0.0079 & 0.161 \\
+chunk pruning & 8 & $0.799$ $[0.712, 0.893]$ & 1.84 & 0.0085 & 0.169 \\
+boundary (draw) & 8 & $0.854$ $[0.759, 0.949]$ & 1.69 & 0.0083 & 0.151 \\
+boundary (argmax) & 8 & $0.859$ $[0.770, 0.957]$ & 1.62 & 0.0082 & 0.152 \\
+dense (draw) & 8 & $0.879$ $[0.782, 0.976]$ & 1.55 & 0.0080 & 0.167 \\
+dense (argmax) & 8 & $0.881$ $[0.784, 0.971]$ & 1.58 & 0.0082 & 0.165 \\
+best-of-N (draw) & 32 & $0.859$ $[0.765, 0.956]$ & 1.29 & 0.0075 & 0.142 \\
+best-of-N (argmax) & 32 & $0.858$ $[0.762, 0.955]$ & 1.31 & 0.0074 & 0.143 \\
+chunk pruning & 32 & $0.866$ $[0.774, 0.959]$ & 1.32 & 0.0079 & 0.160 \\
+boundary (draw) & 32 & $0.928$ $[0.829, 1.016]$ & 1.13 & 0.0077 & 0.141 \\
+boundary (argmax) & 32 & $0.935$ $[0.845, 1.028]$ & 1.11 & 0.0077 & 0.140 \\
+dense (draw) & 32 & $0.911$ $[0.797, 1.018]$ & 1.70 & 0.0086 & 0.160 \\
+dense (argmax) & 32 & $0.929$ $[0.827, 1.037]$ & 1.79 & 0.0087 & 0.159 \\
+\midrule
+boundary (argmax) $-$ chunk pruning & 32 & $+0.069$ $[+0.045, +0.095]$$^*$ & & & \\
+boundary (argmax) $-$ best-of-N (argmax) & 32 & $+0.078$ $[+0.064, +0.093]$$^*$ & & & \\
+boundary (draw) $-$ best-of-N (draw) & 32 & $+0.068$ $[+0.056, +0.082]$$^*$ & & & \\
+boundary (draw) $-$ chunk pruning & 32 & $+0.061$ $[+0.038, +0.090]$$^*$ & & & \\
+dense (argmax) $-$ chunk pruning & 32 & $+0.063$ $[+0.037, +0.093]$$^*$ & & & \\
+dense (argmax) $-$ best-of-N (argmax) & 32 & $+0.072$ $[+0.042, +0.097]$$^*$ & & & \\
+dense (draw) $-$ best-of-N (draw) & 32 & $+0.052$ $[+0.025, +0.079]$$^*$ & & & \\
+dense (draw) $-$ chunk pruning & 32 & $+0.045$ $[+0.020, +0.075]$$^*$ & & & \\
+dense (argmax) $-$ boundary (argmax) & 32 & $-0.006$ $[-0.034, +0.017]$ & & & \\
+dense (draw) $-$ boundary (draw) & 32 & $-0.017$ $[-0.042, +0.005]$ & & & \\
+boundary (argmax) $-$ boundary (draw) & 32 & $+0.007$ $[+0.004, +0.011]$$^*$ & & & \\
+dense (argmax) $-$ dense (draw) & 32 & $+0.018$ $[+0.011, +0.025]$$^*$ & & & \\
+\bottomrule
+\end{tabular}

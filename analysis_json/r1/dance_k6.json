@@ -1,0 +1,1422 @@
+{
+ "K": 6,
+ "n_boot": 1000,
+ "seed": 0,
+ "alpha": 0.02,
+ "rewards": {
+  "ba": {
+   "rows": [
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "base",
+     "N": 1,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.23618698247673597,
+     "ci": [
+      0.22810337914604778,
+      0.24317498271012464
+     ],
+     "pfc": 1.6999547206921761,
+     "realism_w1": 0.0077959342203825135,
+     "nfe": [
+      600
+     ],
+     "diversity_root_rel": 0.17760586679602663,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "best-of-N (draw)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.29210175184736603,
+     "ci": [
+      0.2829701799237721,
+      0.30089920255831054
+     ],
+     "pfc": 1.5795900445993993,
+     "realism_w1": 0.007533549335385642,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.17975769825279714,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "best-of-N (argmax)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.2963391836339582,
+     "ci": [
+      0.28763887130192656,
+      0.30443955889662494
+     ],
+     "pfc": 1.7451012990079562,
+     "realism_w1": 0.0079041196873152,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.17754513900727034,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "chunk pruning",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.37567545339888014,
+     "ci": [
+      0.3653177470363273,
+      0.38656319709017506
+     ],
+     "pfc": 1.9009987543938678,
+     "realism_w1": 0.00784690670370255,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.18091015235210456,
+     "ess_over_N_before_boundary": {
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25,
+      "4": 0.25,
+      "5": 0.25
+     },
+     "frac_resampled_by_boundary": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0
+     },
+     "frac_boundaries_resampled": 1.0,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "boundary (draw)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.3101526380108247,
+     "ci": [
+      0.29818978446322203,
+      0.3230533653515535
+     ],
+     "pfc": 1.6940399581244492,
+     "realism_w1": 0.00791015715479278,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.18500992422923446,
+     "ess_over_N_before_boundary": {
+      "1": 0.62014589962206,
+      "2": 0.5614769559979524,
+      "3": 0.5308147753957599,
+      "4": 0.5507598683360897,
+      "5": 0.5521739479766122
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.25625,
+      "2": 0.325,
+      "3": 0.43125,
+      "4": 0.375,
+      "5": 0.3875
+     },
+     "frac_boundaries_resampled": 0.355,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "boundary (argmax)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.33095671260596077,
+     "ci": [
+      0.3190245000573805,
+      0.34305870064196553
+     ],
+     "pfc": 1.7515859189529692,
+     "realism_w1": 0.007840715076224237,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.17672633572171131,
+     "ess_over_N_before_boundary": {
+      "1": 0.62014589962206,
+      "2": 0.5614769559979524,
+      "3": 0.5308147753957599,
+      "4": 0.5507598683360897,
+      "5": 0.5521739479766122
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.25625,
+      "2": 0.325,
+      "3": 0.43125,
+      "4": 0.375,
+      "5": 0.3875
+     },
+     "frac_boundaries_resampled": 0.355,
+     "source": "results/r1_k6_ba_argmax_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "dense (draw)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.32139858557136464,
+     "ci": [
+      0.308124852969602,
+      0.3338057462233539
+     ],
+     "pfc": 1.9059982418525578,
+     "realism_w1": 0.0077357938203357485,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.18506813077256085,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "dense (argmax)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.3465370921098664,
+     "ci": [
+      0.33314346558340874,
+      0.359600982650674
+     ],
+     "pfc": 2.027664155036746,
+     "realism_w1": 0.007914069614427475,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.18211521559084456,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_argmax_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "best-of-N (draw)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.3229857068276244,
+     "ci": [
+      0.31083546211023333,
+      0.3354781264052797
+     ],
+     "pfc": 1.8231848881100632,
+     "realism_w1": 0.007829568244889293,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.17846969046319522,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "best-of-N (argmax)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.33312815200641066,
+     "ci": [
+      0.32152867344044656,
+      0.3438644512994901
+     ],
+     "pfc": 1.6875071349318205,
+     "realism_w1": 0.007745880639377279,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.17932608717431625,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "chunk pruning",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.4098438501282599,
+     "ci": [
+      0.3962378477193681,
+      0.4237874005234948
+     ],
+     "pfc": 2.13208553975619,
+     "realism_w1": 0.008566708850447835,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.17636941292633615,
+     "ess_over_N_before_boundary": {
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25,
+      "4": 0.25,
+      "5": 0.25
+     },
+     "frac_resampled_by_boundary": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0
+     },
+     "frac_boundaries_resampled": 1.0,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "boundary (draw)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.340468926850348,
+     "ci": [
+      0.32369599556585393,
+      0.35740650682486064
+     ],
+     "pfc": 1.7392980275019454,
+     "realism_w1": 0.007623663179672569,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.17890882442394893,
+     "ess_over_N_before_boundary": {
+      "1": 0.5043719154773934,
+      "2": 0.40747508724736425,
+      "3": 0.42917609636302423,
+      "4": 0.41940127244570835,
+      "5": 0.4286021635525989
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.4625,
+      "2": 0.68125,
+      "3": 0.675,
+      "4": 0.66875,
+      "5": 0.6875
+     },
+     "frac_boundaries_resampled": 0.635,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "boundary (argmax)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.39270275169378477,
+     "ci": [
+      0.3732972890694479,
+      0.41151803021984723
+     ],
+     "pfc": 1.9138781719050257,
+     "realism_w1": 0.007930814113902424,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.17953421402101713,
+     "ess_over_N_before_boundary": {
+      "1": 0.5043719154773934,
+      "2": 0.40747508724736425,
+      "3": 0.42917609636302423,
+      "4": 0.41940127244570835,
+      "5": 0.4286021635525989
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.4625,
+      "2": 0.68125,
+      "3": 0.675,
+      "4": 0.66875,
+      "5": 0.6875
+     },
+     "frac_boundaries_resampled": 0.635,
+     "source": "results/r1_k6_ba_argmax_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "dense (draw)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.3438535076282788,
+     "ci": [
+      0.3283260103188194,
+      0.3589221754688181
+     ],
+     "pfc": 1.8472377789180427,
+     "realism_w1": 0.008353667144645725,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.17733989963307978,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "dense (argmax)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.3999095367580815,
+     "ci": [
+      0.38245417066136456,
+      0.417295552346376
+     ],
+     "pfc": 1.8498340544965686,
+     "realism_w1": 0.008475785381303898,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.17606220540280143,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_argmax_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "boundary (draw), alpha 0.01",
+     "N": 32,
+     "alpha": 0.01,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.4173575193212337,
+     "ci": [
+      0.3983499712835225,
+      0.43737438846122934
+     ],
+     "pfc": 2.0028625509951326,
+     "realism_w1": 0.00862063444509689,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.18038877003515758,
+     "ess_over_N_before_boundary": {
+      "1": 0.20850967057462041,
+      "2": 0.18837526957765968,
+      "3": 0.18333475977185115,
+      "4": 0.18870268343972169,
+      "5": 0.19540184143016165
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.975,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 0.9875,
+      "5": 1.0
+     },
+     "frac_boundaries_resampled": 0.9925,
+     "source": "results/r1_k6_ba_a001_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "boundary (argmax), alpha 0.01",
+     "N": 32,
+     "alpha": 0.01,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.4359022867246781,
+     "ci": [
+      0.4166015331770695,
+      0.4543143368061974
+     ],
+     "pfc": 1.7850279548667913,
+     "realism_w1": 0.008241946845096916,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.1809701300536593,
+     "ess_over_N_before_boundary": {
+      "1": 0.20850967057462041,
+      "2": 0.18837526957765968,
+      "3": 0.18333475977185115,
+      "4": 0.18870268343972169,
+      "5": 0.19540184143016165
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.975,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 0.9875,
+      "5": 1.0
+     },
+     "frac_boundaries_resampled": 0.9925,
+     "source": "results/r1_k6_ba_a001_argmax_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "dense (draw), alpha 0.01",
+     "N": 32,
+     "alpha": 0.01,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.41955260731941724,
+     "ci": [
+      0.3987249980642848,
+      0.4430827584604696
+     ],
+     "pfc": 2.057831134607113,
+     "realism_w1": 0.008312182501537502,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.174229807437708,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_a001_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "method": "dense (argmax), alpha 0.01",
+     "N": 32,
+     "alpha": 0.01,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.4410905769158802,
+     "ci": [
+      0.42024910999985393,
+      0.462043603476578
+     ],
+     "pfc": 2.108140706326367,
+     "realism_w1": 0.008716235302956196,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.17406310324246682,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_ba_a001_argmax_metrics.json"
+    }
+   ],
+   "pairs_N32": [
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (argmax)",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": -0.017141098434475217,
+     "ci_lo": -0.023811106603554386,
+     "ci_hi": -0.009646790744585717,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (argmax)",
+     "B": "best-of-N (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.05957459968737411,
+     "ci_lo": 0.05043284740504163,
+     "ci_hi": 0.06908479161234199,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (draw)",
+     "B": "best-of-N (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.017483220022723584,
+     "ci_lo": 0.00785226566192117,
+     "ci_hi": 0.02695491506989111,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (draw)",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": -0.06937492327791198,
+     "ci_lo": -0.07708340026452551,
+     "ci_hi": -0.06163940842305567,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (argmax)",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": -0.009934313370178452,
+     "ci_lo": -0.015979480039175226,
+     "ci_hi": -0.0036781694840014273,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (argmax)",
+     "B": "best-of-N (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.06678138475167088,
+     "ci_lo": 0.05751246355064739,
+     "ci_hi": 0.07505504798263714,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (draw)",
+     "B": "best-of-N (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.020867800800654403,
+     "ci_lo": 0.011141088343180575,
+     "ci_hi": 0.031646100912032946,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (draw)",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": -0.06599034249998113,
+     "ci_lo": -0.07392831857312826,
+     "ci_hi": -0.05751896323989572,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (argmax)",
+     "B": "boundary (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.007206785064296767,
+     "ci_lo": 3.979808286768225e-05,
+     "ci_hi": 0.013550950900311512,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (draw)",
+     "B": "boundary (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.0033845807779308208,
+     "ci_lo": -0.00917425021051163,
+     "ci_hi": 0.0154886255489048,
+     "separates": false
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (argmax)",
+     "B": "boundary (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.05223382484343675,
+     "ci_lo": 0.04413522099092892,
+     "ci_hi": 0.06079198319041611,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (argmax)",
+     "B": "dense (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.0560560291298027,
+     "ci_lo": 0.04642617888824295,
+     "ci_hi": 0.06620002885761497,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (argmax), alpha 0.01",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.026058436596418107,
+     "ci_lo": 0.019132533134635026,
+     "ci_hi": 0.03307492423542029,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (draw), alpha 0.01",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.007513669192973793,
+     "ci_lo": -0.001440710458412815,
+     "ci_hi": 0.0160117815007367,
+     "separates": false
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (argmax), alpha 0.01",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.031246726787620166,
+     "ci_lo": 0.021055604735777403,
+     "ci_hi": 0.04166942409596299,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (draw), alpha 0.01",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.009708757191157335,
+     "ci_lo": -0.0008656856336724697,
+     "ci_hi": 0.02165035012514881,
+     "separates": false
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (argmax), alpha 0.01",
+     "B": "boundary (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.04319953503089332,
+     "ci_lo": 0.03822892989516077,
+     "ci_hi": 0.04818208802056712,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (argmax), alpha 0.01",
+     "B": "dense (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.041181040157798623,
+     "ci_lo": 0.031546145609251605,
+     "ci_hi": 0.05114281117694179,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "boundary (argmax), alpha 0.01",
+     "B": "best-of-N (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.10277413471826742,
+     "ci_lo": 0.09235171618510625,
+     "ci_hi": 0.11304899400318906,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "ba",
+     "A": "dense (argmax), alpha 0.01",
+     "B": "best-of-N (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.1079624249094695,
+     "ci_lo": 0.09591334443585234,
+     "ci_hi": 0.12027290717606715,
+     "separates": true
+    }
+   ],
+   "base_heldout_ci": {
+    "pfc": {
+     "mean": 1.6999547206921761,
+     "ci": [
+      1.0515832897468158,
+      2.5088028533360784
+     ]
+    },
+    "realism_w1": {
+     "mean": 0.0077959342203825135,
+     "ci": [
+      0.006486329110851191,
+      0.009431600901575686
+     ]
+    }
+   }
+  },
+  "rep": {
+   "rows": [
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "base",
+     "N": 1,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.7118675556499511,
+     "ci": [
+      0.6155178444262128,
+      0.7979129315644968
+     ],
+     "pfc": 1.6999547206921761,
+     "realism_w1": 0.0077959342203825135,
+     "nfe": [
+      600
+     ],
+     "diversity_root_rel": 0.17760586679602663,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "best-of-N (draw)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8167784399585798,
+     "ci": [
+      0.7148670298804063,
+      0.9061062166950433
+     ],
+     "pfc": 1.6131316001803953,
+     "realism_w1": 0.007871689185331082,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.16183982921453813,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "best-of-N (argmax)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8197158891474828,
+     "ci": [
+      0.7169210300344275,
+      0.9138107673305785
+     ],
+     "pfc": 1.6108994408057242,
+     "realism_w1": 0.007851987648581646,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.16084118542882303,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "chunk pruning",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.7990048334468156,
+     "ci": [
+      0.7124068569298834,
+      0.892826260284055
+     ],
+     "pfc": 1.8408540865095802,
+     "realism_w1": 0.0085275462649524,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.16869906463349857,
+     "ess_over_N_before_boundary": {
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25,
+      "4": 0.25,
+      "5": 0.25
+     },
+     "frac_resampled_by_boundary": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0
+     },
+     "frac_boundaries_resampled": 1.0,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "boundary (draw)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8542553713079541,
+     "ci": [
+      0.7587349576072302,
+      0.9488773596985265
+     ],
+     "pfc": 1.6894213734133245,
+     "realism_w1": 0.008263641089175567,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.15143594310308495,
+     "ess_over_N_before_boundary": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.3257370161763313,
+      "4": 0.35085644193628845,
+      "5": 0.36935382075620826
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.84375,
+      "4": 0.8125,
+      "5": 0.8125
+     },
+     "frac_boundaries_resampled": 0.49375,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "boundary (argmax)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8593317661900073,
+     "ci": [
+      0.7699075429537334,
+      0.9574352637794801
+     ],
+     "pfc": 1.624013905626498,
+     "realism_w1": 0.00824727249652156,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.15152999659379324,
+     "ess_over_N_before_boundary": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.3257370161763313,
+      "4": 0.35085644193628845,
+      "5": 0.36935382075620826
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.84375,
+      "4": 0.8125,
+      "5": 0.8125
+     },
+     "frac_boundaries_resampled": 0.49375,
+     "source": "results/r1_k6_rep_argmax_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "dense (draw)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8787109421100467,
+     "ci": [
+      0.7820611884864047,
+      0.9758359087689314
+     ],
+     "pfc": 1.5463619202193968,
+     "realism_w1": 0.008047898652754567,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.16704298661400876,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "dense (argmax)",
+     "N": 8,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8812483185436577,
+     "ci": [
+      0.7843904909736011,
+      0.9709929524408654
+     ],
+     "pfc": 1.5827610092173927,
+     "realism_w1": 0.008228173110353999,
+     "nfe": [
+      4800
+     ],
+     "diversity_root_rel": 0.16481205341406166,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_argmax_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "best-of-N (draw)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8594028336228803,
+     "ci": [
+      0.7649804959684843,
+      0.9562927679769927
+     ],
+     "pfc": 1.292373651182288,
+     "realism_w1": 0.0074501926082121556,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.14242105659407875,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "best-of-N (argmax)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8575707751093432,
+     "ci": [
+      0.7624980782641796,
+      0.9548676235321909
+     ],
+     "pfc": 1.3100326795267847,
+     "realism_w1": 0.0074125430601201196,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.14342318368144333,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "chunk pruning",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.8663310186006129,
+     "ci": [
+      0.7736562171718105,
+      0.959153546828311
+     ],
+     "pfc": 1.3228302494496802,
+     "realism_w1": 0.00788224405304141,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.16012568937925,
+     "ess_over_N_before_boundary": {
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25,
+      "4": 0.25,
+      "5": 0.25
+     },
+     "frac_resampled_by_boundary": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 1.0,
+      "4": 1.0,
+      "5": 1.0
+     },
+     "frac_boundaries_resampled": 1.0,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "boundary (draw)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.9278165220282972,
+     "ci": [
+      0.8292291985382326,
+      1.016380972887855
+     ],
+     "pfc": 1.1341706687630904,
+     "realism_w1": 0.00769862355833532,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.14118025422406694,
+     "ess_over_N_before_boundary": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.1412812781309982,
+      "4": 0.2034873859573195,
+      "5": 0.2239730948515822
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 1.0,
+      "4": 0.96875,
+      "5": 0.9875
+     },
+     "frac_boundaries_resampled": 0.59125,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "boundary (argmax)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.93527393466793,
+     "ci": [
+      0.8450765657459852,
+      1.027580820947187
+     ],
+     "pfc": 1.1068112500254301,
+     "realism_w1": 0.007678874015372239,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.140126541396603,
+     "ess_over_N_before_boundary": {
+      "1": 1.0,
+      "2": 1.0,
+      "3": 0.1412812781309982,
+      "4": 0.2034873859573195,
+      "5": 0.2239730948515822
+     },
+     "frac_resampled_by_boundary": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 1.0,
+      "4": 0.96875,
+      "5": 0.9875
+     },
+     "frac_boundaries_resampled": 0.59125,
+     "source": "results/r1_k6_rep_argmax_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "dense (draw)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.9113136376719921,
+     "ci": [
+      0.7967886174283922,
+      1.0179024099116212
+     ],
+     "pfc": 1.7040619591455197,
+     "realism_w1": 0.00861724886139384,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.16045688384522996,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_metrics.json"
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "method": "dense (argmax)",
+     "N": 32,
+     "n_sequences": 160,
+     "n_prompts": 40,
+     "reward_full": 0.9291038056369871,
+     "ci": [
+      0.8269690602202899,
+      1.0367641623760573
+     ],
+     "pfc": 1.7929406382108937,
+     "realism_w1": 0.008747895762411733,
+     "nfe": [
+      19200
+     ],
+     "diversity_root_rel": 0.158987169029812,
+     "ess_over_N_before_boundary": {},
+     "frac_resampled_by_boundary": {},
+     "frac_boundaries_resampled": null,
+     "source": "results/r1_k6_rep_argmax_metrics.json"
+    }
+   ],
+   "pairs_N32": [
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "boundary (argmax)",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.06894291606731713,
+     "ci_lo": 0.04538496951572597,
+     "ci_hi": 0.0953806869336404,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "boundary (argmax)",
+     "B": "best-of-N (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.07770315955858678,
+     "ci_lo": 0.06400990191090387,
+     "ci_hi": 0.09297045491170139,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "boundary (draw)",
+     "B": "best-of-N (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.06841368840541691,
+     "ci_lo": 0.05636025873944163,
+     "ci_hi": 0.08247417387145106,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "boundary (draw)",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.06148550342768431,
+     "ci_lo": 0.03837385142920539,
+     "ci_hi": 0.0899219256977085,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "dense (argmax)",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.0627727870363742,
+     "ci_lo": 0.03662820704514161,
+     "ci_hi": 0.09258329513366333,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "dense (argmax)",
+     "B": "best-of-N (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.07153303052764386,
+     "ci_lo": 0.04191217531857546,
+     "ci_hi": 0.09714889533875976,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "dense (draw)",
+     "B": "best-of-N (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.0519108040491119,
+     "ci_lo": 0.025275025368318892,
+     "ci_hi": 0.07928909058740828,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "dense (draw)",
+     "B": "chunk pruning",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.04498261907137931,
+     "ci_lo": 0.019680970591725782,
+     "ci_hi": 0.07454946831916458,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "dense (argmax)",
+     "B": "boundary (argmax)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": -0.0061701290309429165,
+     "ci_lo": -0.033775039177853614,
+     "ci_hi": 0.01703652757918461,
+     "separates": false
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "dense (draw)",
+     "B": "boundary (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": -0.016502884356305002,
+     "ci_lo": -0.04205930982483551,
+     "ci_hi": 0.0051692268403712655,
+     "separates": false
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "boundary (argmax)",
+     "B": "boundary (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.007457412639632821,
+     "ci_lo": 0.00422093004686758,
+     "ci_hi": 0.010622843956807628,
+     "separates": true
+    },
+    {
+     "K": 6,
+     "reward": "rep",
+     "A": "dense (argmax)",
+     "B": "dense (draw)",
+     "N": 32,
+     "n_prompts": 40,
+     "n_sequences": 160,
+     "diff": 0.017790167964994906,
+     "ci_lo": 0.011317747465800493,
+     "ci_hi": 0.02450054489076137,
+     "separates": true
+    }
+   ],
+   "base_heldout_ci": {
+    "pfc": {
+     "mean": 1.6999547206921761,
+     "ci": [
+      1.0240416699343058,
+      2.426326823402291
+     ]
+    },
+    "realism_w1": {
+     "mean": 0.0077959342203825135,
+     "ci": [
+      0.00647220895965778,
+      0.009361374851516733
+     ]
+    }
+   }
+  }
+ }
+}

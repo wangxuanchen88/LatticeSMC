@@ -1,0 +1,3789 @@
+{
+ "tables": {
+  "R_BA alpha 0.2": [
+   {
+    "method": "base",
+    "N": 1,
+    "rule": "-",
+    "reward (full)": "0.2339 [0.2230, 0.2430]",
+    "reward (additive, logs)": "0.2251",
+    "PFC": "1.97",
+    "realism W1": "0.00796",
+    "travel m": "4.86",
+    "diversity (root-rel.)": "0.1834"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3117 [0.3016, 0.3222]",
+    "reward (additive, logs)": "0.3001",
+    "PFC": "1.71",
+    "realism W1": "0.00758",
+    "travel m": "4.26",
+    "diversity (root-rel.)": "0.1818"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.2516 [0.2416, 0.2613]",
+    "reward (additive, logs)": "0.2417",
+    "PFC": "2.27",
+    "realism W1": "0.00834",
+    "travel m": "4.44",
+    "diversity (root-rel.)": "0.1821"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.3117 [0.3016, 0.3222]",
+    "reward (additive, logs)": "0.3001",
+    "PFC": "1.71",
+    "realism W1": "0.00758",
+    "travel m": "4.26",
+    "diversity (root-rel.)": "0.1818"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3714 [0.3570, 0.3840]",
+    "reward (additive, logs)": "0.3647",
+    "PFC": "1.91",
+    "realism W1": "0.00781",
+    "travel m": "4.49",
+    "diversity (root-rel.)": "0.1821"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.2488 [0.2386, 0.2600]",
+    "reward (additive, logs)": "0.2396",
+    "PFC": "1.92",
+    "realism W1": "0.00781",
+    "travel m": "4.75",
+    "diversity (root-rel.)": "0.1883"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3032 [0.2933, 0.3124]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.2471 [0.2366, 0.2565]",
+    "reward (additive, logs)": "0.2387",
+    "PFC": "1.88",
+    "realism W1": "0.00756",
+    "travel m": "4.36",
+    "diversity (root-rel.)": "0.1906"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3032 [0.2942, 0.3127]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.2471 [0.2366, 0.2569]",
+    "reward (additive, logs)": "0.2387",
+    "PFC": "1.88",
+    "realism W1": "0.00756",
+    "travel m": "4.36",
+    "diversity (root-rel.)": "0.1906"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3032 [0.2940, 0.3122]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3538 [0.3412, 0.3653]",
+    "reward (additive, logs)": "0.3421",
+    "PFC": "1.88",
+    "realism W1": "0.00786",
+    "travel m": "4.37",
+    "diversity (root-rel.)": "0.1837"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.2541 [0.2414, 0.2671]",
+    "reward (additive, logs)": "0.2469",
+    "PFC": "2.16",
+    "realism W1": "0.00864",
+    "travel m": "4.40",
+    "diversity (root-rel.)": "0.1707"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.3538 [0.3412, 0.3653]",
+    "reward (additive, logs)": "0.3421",
+    "PFC": "1.88",
+    "realism W1": "0.00786",
+    "travel m": "4.37",
+    "diversity (root-rel.)": "0.1837"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.4152 [0.3983, 0.4312]",
+    "reward (additive, logs)": "0.4112",
+    "PFC": "2.05",
+    "realism W1": "0.00823",
+    "travel m": "4.61",
+    "diversity (root-rel.)": "0.1769"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.2573 [0.2457, 0.2683]",
+    "reward (additive, logs)": "0.2486",
+    "PFC": "2.21",
+    "realism W1": "0.00815",
+    "travel m": "4.87",
+    "diversity (root-rel.)": "0.1805"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3451 [0.3319, 0.3574]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.2513 [0.2382, 0.2650]",
+    "reward (additive, logs)": "0.2444",
+    "PFC": "2.19",
+    "realism W1": "0.00767",
+    "travel m": "4.29",
+    "diversity (root-rel.)": "0.1867"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3451 [0.3334, 0.3569]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.2513 [0.2382, 0.2659]",
+    "reward (additive, logs)": "0.2444",
+    "PFC": "2.19",
+    "realism W1": "0.00767",
+    "travel m": "4.29",
+    "diversity (root-rel.)": "0.1867"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward (full)": "0.3504 [0.3384, 0.3623]",
+    "reward (additive, logs)": "0.3451 [0.3338, 0.3569]",
+    "PFC": "1.92",
+    "realism W1": "0.00795",
+    "travel m": "-",
+    "diversity (root-rel.)": "0.1824"
+   }
+  ],
+  "R_BA alpha 0.05": [
+   {
+    "method": "base",
+    "N": 1,
+    "rule": "-",
+    "reward (full)": "0.2339 [0.2230, 0.2430]",
+    "reward (additive, logs)": "0.2251",
+    "PFC": "1.97",
+    "realism W1": "0.00796",
+    "travel m": "4.86",
+    "diversity (root-rel.)": "0.1834"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3117 [0.3016, 0.3222]",
+    "reward (additive, logs)": "0.3001",
+    "PFC": "1.71",
+    "realism W1": "0.00758",
+    "travel m": "4.26",
+    "diversity (root-rel.)": "0.1818"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.2930 [0.2807, 0.3045]",
+    "reward (additive, logs)": "0.2803",
+    "PFC": "1.87",
+    "realism W1": "0.00777",
+    "travel m": "4.47",
+    "diversity (root-rel.)": "0.1854"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.3117 [0.3016, 0.3222]",
+    "reward (additive, logs)": "0.3001",
+    "PFC": "1.71",
+    "realism W1": "0.00758",
+    "travel m": "4.26",
+    "diversity (root-rel.)": "0.1818"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3714 [0.3570, 0.3840]",
+    "reward (additive, logs)": "0.3647",
+    "PFC": "1.91",
+    "realism W1": "0.00781",
+    "travel m": "4.49",
+    "diversity (root-rel.)": "0.1821"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.2816 [0.2678, 0.2942]",
+    "reward (additive, logs)": "0.2752",
+    "PFC": "1.96",
+    "realism W1": "0.00769",
+    "travel m": "4.28",
+    "diversity (root-rel.)": "0.1872"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3272 [0.3132, 0.3409]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.2802 [0.2688, 0.2908]",
+    "reward (additive, logs)": "0.2735",
+    "PFC": "1.75",
+    "realism W1": "0.00772",
+    "travel m": "4.40",
+    "diversity (root-rel.)": "0.1838"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3117 [0.2996, 0.3244]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.2811 [0.2701, 0.2923]",
+    "reward (additive, logs)": "0.2737",
+    "PFC": "1.61",
+    "realism W1": "0.00742",
+    "travel m": "4.21",
+    "diversity (root-rel.)": "0.1843"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3111 [0.2990, 0.3228]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3538 [0.3412, 0.3653]",
+    "reward (additive, logs)": "0.3421",
+    "PFC": "1.88",
+    "realism W1": "0.00786",
+    "travel m": "4.37",
+    "diversity (root-rel.)": "0.1837"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.2975 [0.2823, 0.3128]",
+    "reward (additive, logs)": "0.2886",
+    "PFC": "2.07",
+    "realism W1": "0.00850",
+    "travel m": "4.52",
+    "diversity (root-rel.)": "0.1762"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.3538 [0.3412, 0.3653]",
+    "reward (additive, logs)": "0.3421",
+    "PFC": "1.88",
+    "realism W1": "0.00786",
+    "travel m": "4.37",
+    "diversity (root-rel.)": "0.1837"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.4152 [0.3983, 0.4312]",
+    "reward (additive, logs)": "0.4112",
+    "PFC": "2.05",
+    "realism W1": "0.00823",
+    "travel m": "4.61",
+    "diversity (root-rel.)": "0.1769"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.2952 [0.2810, 0.3096]",
+    "reward (additive, logs)": "0.2856",
+    "PFC": "1.96",
+    "realism W1": "0.00835",
+    "travel m": "4.44",
+    "diversity (root-rel.)": "0.1769"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3838 [0.3669, 0.4006]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.2978 [0.2825, 0.3130]",
+    "reward (additive, logs)": "0.2900",
+    "PFC": "1.87",
+    "realism W1": "0.00789",
+    "travel m": "4.41",
+    "diversity (root-rel.)": "0.1791"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3665 [0.3505, 0.3828]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.2929 [0.2792, 0.3066]",
+    "reward (additive, logs)": "0.2855",
+    "PFC": "2.03",
+    "realism W1": "0.00822",
+    "travel m": "4.46",
+    "diversity (root-rel.)": "0.1784"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward (full)": "0.3700 [0.3549, 0.3872]",
+    "reward (additive, logs)": "0.3640 [0.3481, 0.3792]",
+    "PFC": "2.23",
+    "realism W1": "0.00829",
+    "travel m": "-",
+    "diversity (root-rel.)": "0.1835"
+   }
+  ],
+  "R_BA alpha 0.02": [
+   {
+    "method": "base",
+    "N": 1,
+    "rule": "-",
+    "reward (full)": "0.2339 [0.2230, 0.2430]",
+    "reward (additive, logs)": "0.2251",
+    "PFC": "1.97",
+    "realism W1": "0.00796",
+    "travel m": "4.86",
+    "diversity (root-rel.)": "0.1834"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3117 [0.3016, 0.3222]",
+    "reward (additive, logs)": "0.3001",
+    "PFC": "1.71",
+    "realism W1": "0.00758",
+    "travel m": "4.26",
+    "diversity (root-rel.)": "0.1818"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.3094 [0.2980, 0.3202]",
+    "reward (additive, logs)": "0.2976",
+    "PFC": "1.89",
+    "realism W1": "0.00796",
+    "travel m": "4.37",
+    "diversity (root-rel.)": "0.1819"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.3117 [0.3016, 0.3222]",
+    "reward (additive, logs)": "0.3001",
+    "PFC": "1.71",
+    "realism W1": "0.00758",
+    "travel m": "4.26",
+    "diversity (root-rel.)": "0.1818"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3714 [0.3570, 0.3840]",
+    "reward (additive, logs)": "0.3647",
+    "PFC": "1.91",
+    "realism W1": "0.00781",
+    "travel m": "4.49",
+    "diversity (root-rel.)": "0.1821"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.3499 [0.3280, 0.3722]",
+    "reward (additive, logs)": "0.3405",
+    "PFC": "1.52",
+    "realism W1": "0.00763",
+    "travel m": "4.31",
+    "diversity (root-rel.)": "0.1857"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3652 [0.3457, 0.3860]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.3366 [0.3208, 0.3510]",
+    "reward (additive, logs)": "0.3289",
+    "PFC": "1.50",
+    "realism W1": "0.00750",
+    "travel m": "4.54",
+    "diversity (root-rel.)": "0.1794"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.3508 [0.3356, 0.3642]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.3316 [0.3171, 0.3471]",
+    "reward (additive, logs)": "0.3246",
+    "PFC": "1.70",
+    "realism W1": "0.00790",
+    "travel m": "4.51",
+    "diversity (root-rel.)": "0.1833"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "argmax (regenerated)",
+    "reward (full)": "0.3563 [0.3417, 0.3697]",
+    "reward (additive, logs)": "0.3511 [0.3352, 0.3666]",
+    "PFC": "2.07",
+    "realism W1": "0.00817",
+    "travel m": "-",
+    "diversity (root-rel.)": "0.1823"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.3538 [0.3412, 0.3653]",
+    "reward (additive, logs)": "0.3421",
+    "PFC": "1.88",
+    "realism W1": "0.00786",
+    "travel m": "4.37",
+    "diversity (root-rel.)": "0.1837"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.3472 [0.3334, 0.3608]",
+    "reward (additive, logs)": "0.3355",
+    "PFC": "1.84",
+    "realism W1": "0.00788",
+    "travel m": "4.38",
+    "diversity (root-rel.)": "0.1818"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.3538 [0.3412, 0.3653]",
+    "reward (additive, logs)": "0.3421",
+    "PFC": "1.88",
+    "realism W1": "0.00786",
+    "travel m": "4.37",
+    "diversity (root-rel.)": "0.1837"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.4152 [0.3983, 0.4312]",
+    "reward (additive, logs)": "0.4112",
+    "PFC": "2.05",
+    "realism W1": "0.00823",
+    "travel m": "4.61",
+    "diversity (root-rel.)": "0.1769"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.3875 [0.3652, 0.4088]",
+    "reward (additive, logs)": "0.3817",
+    "PFC": "2.12",
+    "realism W1": "0.00829",
+    "travel m": "4.40",
+    "diversity (root-rel.)": "0.1770"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.4381 [0.4147, 0.4608]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.3848 [0.3649, 0.4042]",
+    "reward (additive, logs)": "0.3778",
+    "PFC": "1.74",
+    "realism W1": "0.00772",
+    "travel m": "4.70",
+    "diversity (root-rel.)": "0.1738"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.4192 [0.4000, 0.4370]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.3854 [0.3641, 0.4050]",
+    "reward (additive, logs)": "0.3792",
+    "PFC": "1.91",
+    "realism W1": "0.00772",
+    "travel m": "4.38",
+    "diversity (root-rel.)": "0.1762"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward (full)": "0.4280 [0.4077, 0.4477]",
+    "reward (additive, logs)": "0.4216 [0.4031, 0.4399]",
+    "PFC": "2.24",
+    "realism W1": "0.00815",
+    "travel m": "-",
+    "diversity (root-rel.)": "0.1831"
+   }
+  ],
+  "R_rep alpha 0.02": [
+   {
+    "method": "base",
+    "N": 1,
+    "rule": "-",
+    "reward (full)": "0.7179 [0.6324, 0.8082]",
+    "reward (additive, logs)": "0.7179",
+    "PFC": "1.97",
+    "realism W1": "0.00796",
+    "travel m": "4.86",
+    "diversity (root-rel.)": "0.1834"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.8500 [0.7539, 0.9365]",
+    "reward (additive, logs)": "0.8500",
+    "PFC": "1.79",
+    "realism W1": "0.00823",
+    "travel m": "4.33",
+    "diversity (root-rel.)": "0.1617"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.8487 [0.7593, 0.9498]",
+    "reward (additive, logs)": "0.8487",
+    "PFC": "1.88",
+    "realism W1": "0.00820",
+    "travel m": "4.38",
+    "diversity (root-rel.)": "0.1634"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.8500 [0.7539, 0.9365]",
+    "reward (additive, logs)": "0.8500",
+    "PFC": "1.79",
+    "realism W1": "0.00823",
+    "travel m": "4.33",
+    "diversity (root-rel.)": "0.1617"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.8109 [0.7157, 0.9106]",
+    "reward (additive, logs)": "0.8109",
+    "PFC": "1.94",
+    "realism W1": "0.00826",
+    "travel m": "4.64",
+    "diversity (root-rel.)": "0.1710"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.8757 [0.7799, 0.9785]",
+    "reward (additive, logs)": "0.8757",
+    "PFC": "1.56",
+    "realism W1": "0.00788",
+    "travel m": "4.40",
+    "diversity (root-rel.)": "0.1691"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.8979 [0.7970, 0.9935]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.8122 [0.7194, 0.9067]",
+    "reward (additive, logs)": "0.8122",
+    "PFC": "1.66",
+    "realism W1": "0.00770",
+    "travel m": "3.86",
+    "diversity (root-rel.)": "0.1685"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.8253 [0.7313, 0.9192]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.8642 [0.7698, 0.9615]",
+    "reward (additive, logs)": "0.8642",
+    "PFC": "1.69",
+    "realism W1": "0.00814",
+    "travel m": "4.36",
+    "diversity (root-rel.)": "0.1682"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "argmax (regenerated)",
+    "reward (full)": "0.8744 [0.7838, 0.9684]",
+    "reward (additive, logs)": "0.8744 [0.7807, 0.9717]",
+    "PFC": "1.73",
+    "realism W1": "0.00815",
+    "travel m": "-",
+    "diversity (root-rel.)": "0.1659"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.9013 [0.8057, 1.0025]",
+    "reward (additive, logs)": "0.9013",
+    "PFC": "1.47",
+    "realism W1": "0.00794",
+    "travel m": "4.46",
+    "diversity (root-rel.)": "0.1568"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.8953 [0.8065, 0.9886]",
+    "reward (additive, logs)": "0.8953",
+    "PFC": "1.45",
+    "realism W1": "0.00786",
+    "travel m": "4.40",
+    "diversity (root-rel.)": "0.1576"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.9013 [0.8057, 1.0025]",
+    "reward (additive, logs)": "0.9013",
+    "PFC": "1.47",
+    "realism W1": "0.00794",
+    "travel m": "4.46",
+    "diversity (root-rel.)": "0.1568"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.8874 [0.7916, 0.9868]",
+    "reward (additive, logs)": "0.8874",
+    "PFC": "1.36",
+    "realism W1": "0.00771",
+    "travel m": "3.88",
+    "diversity (root-rel.)": "0.1668"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.9206 [0.8107, 1.0239]",
+    "reward (additive, logs)": "0.9206",
+    "PFC": "1.61",
+    "realism W1": "0.00838",
+    "travel m": "4.38",
+    "diversity (root-rel.)": "0.1577"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.9624 [0.8600, 1.0718]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.8708 [0.7781, 0.9640]",
+    "reward (additive, logs)": "0.8708",
+    "PFC": "1.37",
+    "realism W1": "0.00753",
+    "travel m": "4.16",
+    "diversity (root-rel.)": "0.1533"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.8945 [0.7988, 0.9943]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.9237 [0.8276, 1.0197]",
+    "reward (additive, logs)": "0.9237",
+    "PFC": "1.54",
+    "realism W1": "0.00832",
+    "travel m": "4.41",
+    "diversity (root-rel.)": "0.1533"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward (full)": "0.9467 [0.8446, 1.0400]",
+    "reward (additive, logs)": "0.9467 [0.8521, 1.0408]",
+    "PFC": "1.55",
+    "realism W1": "0.00826",
+    "travel m": "-",
+    "diversity (root-rel.)": "0.1539"
+   }
+  ],
+  "R_rep alpha 0.05": [
+   {
+    "method": "base",
+    "N": 1,
+    "rule": "-",
+    "reward (full)": "0.7179 [0.6324, 0.8082]",
+    "reward (additive, logs)": "0.7179",
+    "PFC": "1.97",
+    "realism W1": "0.00796",
+    "travel m": "4.86",
+    "diversity (root-rel.)": "0.1834"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.8500 [0.7539, 0.9365]",
+    "reward (additive, logs)": "0.8500",
+    "PFC": "1.79",
+    "realism W1": "0.00823",
+    "travel m": "4.33",
+    "diversity (root-rel.)": "0.1617"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.8335 [0.7443, 0.9321]",
+    "reward (additive, logs)": "0.8335",
+    "PFC": "1.76",
+    "realism W1": "0.00782",
+    "travel m": "4.32",
+    "diversity (root-rel.)": "0.1648"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.8500 [0.7539, 0.9365]",
+    "reward (additive, logs)": "0.8500",
+    "PFC": "1.79",
+    "realism W1": "0.00823",
+    "travel m": "4.33",
+    "diversity (root-rel.)": "0.1617"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.8109 [0.7157, 0.9106]",
+    "reward (additive, logs)": "0.8109",
+    "PFC": "1.94",
+    "realism W1": "0.00826",
+    "travel m": "4.64",
+    "diversity (root-rel.)": "0.1710"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.8316 [0.7374, 0.9313]",
+    "reward (additive, logs)": "0.8316",
+    "PFC": "1.90",
+    "realism W1": "0.00819",
+    "travel m": "4.20",
+    "diversity (root-rel.)": "0.1620"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.8727 [0.7788, 0.9702]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.8061 [0.7100, 0.9046]",
+    "reward (additive, logs)": "0.8061",
+    "PFC": "1.68",
+    "realism W1": "0.00780",
+    "travel m": "4.26",
+    "diversity (root-rel.)": "0.1737"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.8355 [0.7416, 0.9403]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "draw",
+    "reward (full)": "0.8289 [0.7369, 0.9258]",
+    "reward (additive, logs)": "0.8289",
+    "PFC": "1.92",
+    "realism W1": "0.00828",
+    "travel m": "4.32",
+    "diversity (root-rel.)": "0.1668"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.8616 [0.7639, 0.9569]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.9013 [0.8057, 1.0025]",
+    "reward (additive, logs)": "0.9013",
+    "PFC": "1.47",
+    "realism W1": "0.00794",
+    "travel m": "4.46",
+    "diversity (root-rel.)": "0.1568"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.8676 [0.7768, 0.9594]",
+    "reward (additive, logs)": "0.8676",
+    "PFC": "1.43",
+    "realism W1": "0.00799",
+    "travel m": "4.38",
+    "diversity (root-rel.)": "0.1558"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "argmax (= bon_argmax)",
+    "reward (full)": "0.9013 [0.8057, 1.0025]",
+    "reward (additive, logs)": "0.9013",
+    "PFC": "1.47",
+    "realism W1": "0.00794",
+    "travel m": "4.46",
+    "diversity (root-rel.)": "0.1568"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward (full)": "0.8874 [0.7916, 0.9868]",
+    "reward (additive, logs)": "0.8874",
+    "PFC": "1.36",
+    "realism W1": "0.00771",
+    "travel m": "3.88",
+    "diversity (root-rel.)": "0.1668"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.8553 [0.7479, 0.9546]",
+    "reward (additive, logs)": "0.8553",
+    "PFC": "1.70",
+    "realism W1": "0.00838",
+    "travel m": "4.31",
+    "diversity (root-rel.)": "0.1572"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.9417 [0.8467, 1.0383]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.8548 [0.7593, 0.9584]",
+    "reward (additive, logs)": "0.8548",
+    "PFC": "1.37",
+    "realism W1": "0.00755",
+    "travel m": "4.43",
+    "diversity (root-rel.)": "0.1560"
+   },
+   {
+    "method": "lattice_smc",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward (full)": "-",
+    "reward (additive, logs)": "0.9234 [0.8357, 1.0230]",
+    "PFC": "-",
+    "realism W1": "-",
+    "travel m": "-",
+    "diversity (root-rel.)": "-"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "draw",
+    "reward (full)": "0.8645 [0.7671, 0.9605]",
+    "reward (additive, logs)": "0.8645",
+    "PFC": "1.57",
+    "realism W1": "0.00795",
+    "travel m": "4.28",
+    "diversity (root-rel.)": "0.1542"
+   },
+   {
+    "method": "lattice_smc_notwist",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward (full)": "0.9235 [0.8283, 1.0253]",
+    "reward (additive, logs)": "0.9235 [0.8232, 1.0170]",
+    "PFC": "1.40",
+    "realism W1": "0.00788",
+    "travel m": "-",
+    "diversity (root-rel.)": "0.1568"
+   }
+  ],
+  "music terminal CLAP": [
+   {
+    "method": "base",
+    "N": 1,
+    "rule": "-",
+    "reward": "0.4703 [0.4490, 0.4905]",
+    "tempo (n)": "0.903 (75)",
+    "8 kHz frac.": "0.00686",
+    "aesthetics CE / CU / PC / PQ": "7.50 / 8.18 / 5.62 / 8.17",
+    "seam ratio": "1.272",
+    "seed diversity": "0.0610"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward": "0.5132 [0.4964, 0.5293]",
+    "tempo (n)": "0.901 (78)",
+    "8 kHz frac.": "0.00668",
+    "aesthetics CE / CU / PC / PQ": "7.50 / 8.16 / 5.67 / 8.15",
+    "seam ratio": "1.248",
+    "seed diversity": "0.0599"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.5129 [0.4965, 0.5274]",
+    "tempo (n)": "0.894 (78)",
+    "8 kHz frac.": "0.00652",
+    "aesthetics CE / CU / PC / PQ": "7.49 / 8.16 / 5.66 / 8.14",
+    "seam ratio": "1.251",
+    "seed diversity": "0.0620"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "argmax (= bon_argmax)",
+    "reward": "0.5132 [0.4964, 0.5293]",
+    "tempo (n)": "0.901 (78)",
+    "8 kHz frac.": "0.00668",
+    "aesthetics CE / CU / PC / PQ": "7.50 / 8.16 / 5.67 / 8.15",
+    "seam ratio": "1.248",
+    "seed diversity": "0.0599"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward": "0.5360 [0.5198, 0.5521]",
+    "tempo (n)": "0.927 (79)",
+    "8 kHz frac.": "0.00649",
+    "aesthetics CE / CU / PC / PQ": "7.48 / 8.17 / 5.59 / 8.16",
+    "seam ratio": "1.256",
+    "seed diversity": "0.0551"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.5378 [0.5236, 0.5518]",
+    "tempo (n)": "0.888 (78)",
+    "8 kHz frac.": "0.00623",
+    "aesthetics CE / CU / PC / PQ": "7.52 / 8.17 / 5.67 / 8.15",
+    "seam ratio": "1.315",
+    "seed diversity": "0.0536"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "argmax (regenerated)",
+    "reward": "0.5452 [0.5304, 0.5598]",
+    "tempo (n)": "0.883 (79)",
+    "8 kHz frac.": "0.00614",
+    "aesthetics CE / CU / PC / PQ": "7.50 / 8.16 / 5.67 / 8.15",
+    "seam ratio": "1.278",
+    "seed diversity": "0.0522"
+   },
+   {
+    "method": "lattice_smc_prefix_b1",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.5338 [0.5179, 0.5496]",
+    "tempo (n)": "0.929 (77)",
+    "8 kHz frac.": "0.00691",
+    "aesthetics CE / CU / PC / PQ": "7.49 / 8.16 / 5.64 / 8.14",
+    "seam ratio": "1.271",
+    "seed diversity": "0.0565"
+   },
+   {
+    "method": "lattice_smc_prefix_b1",
+    "N": 8,
+    "rule": "argmax (regenerated)",
+    "reward": "0.5378 [0.5211, 0.5537]",
+    "tempo (n)": "0.924 (79)",
+    "8 kHz frac.": "0.00675",
+    "aesthetics CE / CU / PC / PQ": "7.47 / 8.16 / 5.62 / 8.14",
+    "seam ratio": "1.267",
+    "seed diversity": "0.0547"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.5",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.5255 [0.5090, 0.5408]",
+    "tempo (n)": "0.937 (79)",
+    "8 kHz frac.": "0.00726",
+    "aesthetics CE / CU / PC / PQ": "7.50 / 8.17 / 5.65 / 8.16",
+    "seam ratio": "1.277",
+    "seed diversity": "0.0556"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.5",
+    "N": 8,
+    "rule": "argmax (regenerated)",
+    "reward": "0.5302 [0.5136, 0.5457]",
+    "tempo (n)": "- (0)",
+    "8 kHz frac.": "-",
+    "aesthetics CE / CU / PC / PQ": "- / - / - / -",
+    "seam ratio": "-",
+    "seed diversity": "-"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.25",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.5176 [0.4986, 0.5338]",
+    "tempo (n)": "0.917 (78)",
+    "8 kHz frac.": "0.00669",
+    "aesthetics CE / CU / PC / PQ": "7.49 / 8.15 / 5.64 / 8.14",
+    "seam ratio": "1.254",
+    "seed diversity": "0.0564"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.25",
+    "N": 8,
+    "rule": "argmax (regenerated)",
+    "reward": "0.5211 [0.5037, 0.5365]",
+    "tempo (n)": "- (0)",
+    "8 kHz frac.": "-",
+    "aesthetics CE / CU / PC / PQ": "- / - / - / -",
+    "seam ratio": "-",
+    "seed diversity": "-"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward": "0.5299 [0.5141, 0.5437]",
+    "tempo (n)": "0.903 (77)",
+    "8 kHz frac.": "0.00609",
+    "aesthetics CE / CU / PC / PQ": "7.46 / 8.14 / 5.62 / 8.12",
+    "seam ratio": "1.254",
+    "seed diversity": "0.0549"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.5274 [0.5121, 0.5422]",
+    "tempo (n)": "0.914 (76)",
+    "8 kHz frac.": "0.00629",
+    "aesthetics CE / CU / PC / PQ": "7.48 / 8.14 / 5.65 / 8.12",
+    "seam ratio": "1.281",
+    "seed diversity": "0.0595"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "argmax (= bon_argmax)",
+    "reward": "0.5299 [0.5141, 0.5437]",
+    "tempo (n)": "0.903 (77)",
+    "8 kHz frac.": "0.00609",
+    "aesthetics CE / CU / PC / PQ": "7.46 / 8.14 / 5.62 / 8.12",
+    "seam ratio": "1.254",
+    "seed diversity": "0.0549"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward": "0.5507 [0.5352, 0.5656]",
+    "tempo (n)": "0.894 (78)",
+    "8 kHz frac.": "0.00668",
+    "aesthetics CE / CU / PC / PQ": "7.49 / 8.15 / 5.61 / 8.15",
+    "seam ratio": "1.269",
+    "seed diversity": "0.0516"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.5455 [0.5316, 0.5583]",
+    "tempo (n)": "0.941 (80)",
+    "8 kHz frac.": "0.00661",
+    "aesthetics CE / CU / PC / PQ": "7.51 / 8.17 / 5.66 / 8.16",
+    "seam ratio": "1.301",
+    "seed diversity": "0.0527"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward": "0.5594 [0.5452, 0.5740]",
+    "tempo (n)": "0.909 (80)",
+    "8 kHz frac.": "0.00663",
+    "aesthetics CE / CU / PC / PQ": "7.50 / 8.16 / 5.65 / 8.15",
+    "seam ratio": "1.336",
+    "seed diversity": "0.0484"
+   },
+   {
+    "method": "lattice_smc_prefix_b1",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.5472 [0.5335, 0.5621]",
+    "tempo (n)": "0.922 (77)",
+    "8 kHz frac.": "0.00641",
+    "aesthetics CE / CU / PC / PQ": "7.50 / 8.15 / 5.65 / 8.14",
+    "seam ratio": "1.322",
+    "seed diversity": "0.0542"
+   },
+   {
+    "method": "lattice_smc_prefix_b1",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward": "0.5596 [0.5457, 0.5734]",
+    "tempo (n)": "0.924 (79)",
+    "8 kHz frac.": "0.00618",
+    "aesthetics CE / CU / PC / PQ": "7.48 / 8.15 / 5.65 / 8.13",
+    "seam ratio": "1.342",
+    "seed diversity": "0.0497"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.5",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.5438 [0.5292, 0.5591]",
+    "tempo (n)": "0.937 (79)",
+    "8 kHz frac.": "0.00647",
+    "aesthetics CE / CU / PC / PQ": "7.51 / 8.16 / 5.59 / 8.13",
+    "seam ratio": "1.322",
+    "seed diversity": "0.0569"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.5",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward": "0.5529 [0.5377, 0.5666]",
+    "tempo (n)": "- (0)",
+    "8 kHz frac.": "-",
+    "aesthetics CE / CU / PC / PQ": "- / - / - / -",
+    "seam ratio": "-",
+    "seed diversity": "-"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.25",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.5329 [0.5178, 0.5477]",
+    "tempo (n)": "0.944 (76)",
+    "8 kHz frac.": "0.00651",
+    "aesthetics CE / CU / PC / PQ": "7.46 / 8.15 / 5.62 / 8.14",
+    "seam ratio": "1.309",
+    "seed diversity": "0.0599"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.25",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward": "0.5389 [0.5231, 0.5539]",
+    "tempo (n)": "- (0)",
+    "8 kHz frac.": "-",
+    "aesthetics CE / CU / PC / PQ": "- / - / - / -",
+    "seam ratio": "-",
+    "seed diversity": "-"
+   }
+  ],
+  "music R_motif": [
+   {
+    "method": "base",
+    "N": 1,
+    "rule": "-",
+    "reward": "0.8144 [0.7862, 0.8393]",
+    "tempo (n)": "0.903 (75)",
+    "8 kHz frac.": "0.00686",
+    "aesthetics CE / CU / PC / PQ": "7.50 / 8.18 / 5.62 / 8.17",
+    "seam ratio": "1.272",
+    "seed diversity": "0.0610",
+    "terminal CLAP (held out)": "0.4703",
+    "s_3": "0.843"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward": "0.8972 [0.8853, 0.9085]",
+    "tempo (n)": "0.897 (80)",
+    "8 kHz frac.": "0.00691",
+    "aesthetics CE / CU / PC / PQ": "7.51 / 8.16 / 5.72 / 8.14",
+    "seam ratio": "1.270",
+    "seed diversity": "0.0575",
+    "terminal CLAP (held out)": "0.4719",
+    "s_3": "0.848"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.8921 [0.8798, 0.9037]",
+    "tempo (n)": "0.900 (80)",
+    "8 kHz frac.": "0.00734",
+    "aesthetics CE / CU / PC / PQ": "7.52 / 8.16 / 5.71 / 8.14",
+    "seam ratio": "1.254",
+    "seed diversity": "0.0581",
+    "terminal CLAP (held out)": "0.4745",
+    "s_3": "0.849"
+   },
+   {
+    "method": "bon_is",
+    "N": 8,
+    "rule": "argmax (= bon_argmax)",
+    "reward": "0.8972 [0.8853, 0.9085]",
+    "tempo (n)": "0.897 (80)",
+    "8 kHz frac.": "0.00691",
+    "aesthetics CE / CU / PC / PQ": "7.51 / 8.16 / 5.72 / 8.14",
+    "seam ratio": "1.270",
+    "seed diversity": "0.0575",
+    "terminal CLAP (held out)": "0.4719",
+    "s_3": "0.848"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 8,
+    "rule": "argmax (by definition)",
+    "reward": "0.8945 [0.8816, 0.9073]",
+    "tempo (n)": "0.915 (79)",
+    "8 kHz frac.": "0.00735",
+    "aesthetics CE / CU / PC / PQ": "7.55 / 8.19 / 5.71 / 8.17",
+    "seam ratio": "1.262",
+    "seed diversity": "0.0690",
+    "terminal CLAP (held out)": "0.4713",
+    "s_3": "0.885"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.8949 [0.8855, 0.9040]",
+    "tempo (n)": "0.894 (80)",
+    "8 kHz frac.": "0.00665",
+    "aesthetics CE / CU / PC / PQ": "7.55 / 8.17 / 5.77 / 8.16",
+    "seam ratio": "1.258",
+    "seed diversity": "0.0524",
+    "terminal CLAP (held out)": "0.4720",
+    "s_3": "0.880"
+   },
+   {
+    "method": "fk_noise",
+    "N": 8,
+    "rule": "argmax (regenerated)",
+    "reward": "0.9101 [0.9009, 0.9188]",
+    "tempo (n)": "0.891 (80)",
+    "8 kHz frac.": "0.00654",
+    "aesthetics CE / CU / PC / PQ": "7.55 / 8.17 / 5.77 / 8.16",
+    "seam ratio": "1.254",
+    "seed diversity": "0.0542",
+    "terminal CLAP (held out)": "0.4729",
+    "s_3": "0.880"
+   },
+   {
+    "method": "lattice_smc_prefix_b1",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.8907 [0.8785, 0.9031]",
+    "tempo (n)": "0.928 (80)",
+    "8 kHz frac.": "0.00664",
+    "aesthetics CE / CU / PC / PQ": "7.53 / 8.17 / 5.70 / 8.14",
+    "seam ratio": "1.261",
+    "seed diversity": "0.0638",
+    "terminal CLAP (held out)": "0.4722",
+    "s_3": "0.879"
+   },
+   {
+    "method": "lattice_smc_prefix_b1",
+    "N": 8,
+    "rule": "argmax (regenerated)",
+    "reward": "0.9020 [0.8886, 0.9131]",
+    "tempo (n)": "0.909 (80)",
+    "8 kHz frac.": "0.00695",
+    "aesthetics CE / CU / PC / PQ": "7.55 / 8.18 / 5.72 / 8.14",
+    "seam ratio": "1.268",
+    "seed diversity": "0.0602",
+    "terminal CLAP (held out)": "0.4707",
+    "s_3": "0.884"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.5",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.8940 [0.8824, 0.9050]",
+    "tempo (n)": "0.919 (80)",
+    "8 kHz frac.": "0.00697",
+    "aesthetics CE / CU / PC / PQ": "7.53 / 8.17 / 5.71 / 8.16",
+    "seam ratio": "1.237",
+    "seed diversity": "0.0601",
+    "terminal CLAP (held out)": "0.4704",
+    "s_3": "0.861"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.5",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward": "0.9018 [0.8917, 0.9122]",
+    "tempo (n)": "- (-)",
+    "8 kHz frac.": "-",
+    "aesthetics CE / CU / PC / PQ": "- / - / - / -",
+    "seam ratio": "-",
+    "seed diversity": "-",
+    "terminal CLAP (held out)": "-",
+    "s_3": "-"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.25",
+    "N": 8,
+    "rule": "draw",
+    "reward": "0.8941 [0.8843, 0.9036]",
+    "tempo (n)": "0.900 (80)",
+    "8 kHz frac.": "0.00734",
+    "aesthetics CE / CU / PC / PQ": "7.51 / 8.16 / 5.70 / 8.15",
+    "seam ratio": "1.253",
+    "seed diversity": "0.0585",
+    "terminal CLAP (held out)": "0.4755",
+    "s_3": "0.850"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.25",
+    "N": 8,
+    "rule": "argmax (logs only)",
+    "reward": "0.8992 [0.8886, 0.9092]",
+    "tempo (n)": "- (-)",
+    "8 kHz frac.": "-",
+    "aesthetics CE / CU / PC / PQ": "- / - / - / -",
+    "seam ratio": "-",
+    "seed diversity": "-",
+    "terminal CLAP (held out)": "-",
+    "s_3": "-"
+   },
+   {
+    "method": "bon_argmax",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward": "0.9184 [0.9088, 0.9284]",
+    "tempo (n)": "0.925 (80)",
+    "8 kHz frac.": "0.00713",
+    "aesthetics CE / CU / PC / PQ": "7.54 / 8.17 / 5.77 / 8.16",
+    "seam ratio": "1.247",
+    "seed diversity": "0.0585",
+    "terminal CLAP (held out)": "0.4772",
+    "s_3": "0.868"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.9043 [0.8948, 0.9136]",
+    "tempo (n)": "0.934 (80)",
+    "8 kHz frac.": "0.00723",
+    "aesthetics CE / CU / PC / PQ": "7.55 / 8.18 / 5.76 / 8.16",
+    "seam ratio": "1.284",
+    "seed diversity": "0.0622",
+    "terminal CLAP (held out)": "0.4761",
+    "s_3": "0.861"
+   },
+   {
+    "method": "bon_is",
+    "N": 32,
+    "rule": "argmax (= bon_argmax)",
+    "reward": "0.9184 [0.9088, 0.9284]",
+    "tempo (n)": "0.925 (80)",
+    "8 kHz frac.": "0.00713",
+    "aesthetics CE / CU / PC / PQ": "7.54 / 8.17 / 5.77 / 8.16",
+    "seam ratio": "1.247",
+    "seed diversity": "0.0585",
+    "terminal CLAP (held out)": "0.4772",
+    "s_3": "0.868"
+   },
+   {
+    "method": "greedy_chunk",
+    "N": 32,
+    "rule": "argmax (by definition)",
+    "reward": "0.9181 [0.9078, 0.9273]",
+    "tempo (n)": "0.925 (80)",
+    "8 kHz frac.": "0.00726",
+    "aesthetics CE / CU / PC / PQ": "7.54 / 8.17 / 5.72 / 8.15",
+    "seam ratio": "1.280",
+    "seed diversity": "0.0634",
+    "terminal CLAP (held out)": "0.4660",
+    "s_3": "0.890"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.9083 [0.8987, 0.9171]",
+    "tempo (n)": "0.906 (80)",
+    "8 kHz frac.": "0.00568",
+    "aesthetics CE / CU / PC / PQ": "7.58 / 8.17 / 5.76 / 8.16",
+    "seam ratio": "1.296",
+    "seed diversity": "0.0523",
+    "terminal CLAP (held out)": "0.4738",
+    "s_3": "0.877"
+   },
+   {
+    "method": "fk_noise",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward": "0.9316 [0.9250, 0.9382]",
+    "tempo (n)": "0.906 (80)",
+    "8 kHz frac.": "0.00595",
+    "aesthetics CE / CU / PC / PQ": "7.57 / 8.17 / 5.79 / 8.16",
+    "seam ratio": "1.251",
+    "seed diversity": "0.0574",
+    "terminal CLAP (held out)": "0.4698",
+    "s_3": "0.880"
+   },
+   {
+    "method": "lattice_smc_prefix_b1",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.9027 [0.8934, 0.9113]",
+    "tempo (n)": "0.934 (79)",
+    "8 kHz frac.": "0.00643",
+    "aesthetics CE / CU / PC / PQ": "7.55 / 8.18 / 5.71 / 8.17",
+    "seam ratio": "1.246",
+    "seed diversity": "0.0550",
+    "terminal CLAP (held out)": "0.4754",
+    "s_3": "0.877"
+   },
+   {
+    "method": "lattice_smc_prefix_b1",
+    "N": 32,
+    "rule": "argmax (regenerated)",
+    "reward": "0.9291 [0.9217, 0.9368]",
+    "tempo (n)": "0.900 (80)",
+    "8 kHz frac.": "0.00698",
+    "aesthetics CE / CU / PC / PQ": "7.54 / 8.17 / 5.74 / 8.17",
+    "seam ratio": "1.258",
+    "seed diversity": "0.0572",
+    "terminal CLAP (held out)": "0.4624",
+    "s_3": "0.903"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.5",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.9030 [0.8925, 0.9132]",
+    "tempo (n)": "0.931 (80)",
+    "8 kHz frac.": "0.00694",
+    "aesthetics CE / CU / PC / PQ": "7.55 / 8.18 / 5.77 / 8.16",
+    "seam ratio": "1.339",
+    "seed diversity": "0.0565",
+    "terminal CLAP (held out)": "0.4733",
+    "s_3": "0.867"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.5",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward": "0.9238 [0.9154, 0.9315]",
+    "tempo (n)": "- (-)",
+    "8 kHz frac.": "-",
+    "aesthetics CE / CU / PC / PQ": "- / - / - / -",
+    "seam ratio": "-",
+    "seed diversity": "-",
+    "terminal CLAP (held out)": "-",
+    "s_3": "-"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.25",
+    "N": 32,
+    "rule": "draw",
+    "reward": "0.9059 [0.8979, 0.9138]",
+    "tempo (n)": "0.931 (80)",
+    "8 kHz frac.": "0.00705",
+    "aesthetics CE / CU / PC / PQ": "7.55 / 8.18 / 5.75 / 8.17",
+    "seam ratio": "1.284",
+    "seed diversity": "0.0613",
+    "terminal CLAP (held out)": "0.4769",
+    "s_3": "0.861"
+   },
+   {
+    "method": "lattice_smc_prefix_b0.25",
+    "N": 32,
+    "rule": "argmax (logs only)",
+    "reward": "0.9201 [0.9129, 0.9281]",
+    "tempo (n)": "- (-)",
+    "8 kHz frac.": "-",
+    "aesthetics CE / CU / PC / PQ": "- / - / - / -",
+    "seam ratio": "-",
+    "seed diversity": "-",
+    "terminal CLAP (held out)": "-",
+    "s_3": "-"
+   }
+  ]
+ },
+ "pairs": {
+  "R_BA alpha 0.2": [
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0133 [0.0048, 0.0237]",
+    "separates": true,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.0174 [0.0046, 0.0317]",
+    "separates": true,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0646 [-0.0738, -0.0555]",
+    "separates": true,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.1025 [-0.1131, -0.0916]",
+    "separates": true,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0044 [-0.0151, 0.0062]",
+    "separates": false,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0028 [-0.0177, 0.0126]",
+    "separates": false,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0017 [-0.0113, 0.0070]",
+    "separates": false,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0060 [-0.0193, 0.0092]",
+    "separates": false,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.1243 [-0.1360, -0.1136]",
+    "separates": true,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.1639 [-0.1769, -0.1523]",
+    "separates": true,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0000 [0.0000, 0.0000]",
+    "separates": false,
+    "source": "phase2_rerun_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.0000 [0.0000, 0.0000]",
+    "separates": false,
+    "source": "phase2_rerun_analysis.json"
+   }
+  ],
+  "R_BA alpha 0.05": [
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0463 [0.0360, 0.0572]",
+    "separates": true,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.0639 [0.0496, 0.0791]",
+    "separates": true,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0316 [-0.0382, -0.0245]",
+    "separates": true,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0560 [-0.0649, -0.0475]",
+    "separates": true,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0129 [-0.0217, -0.0039]",
+    "separates": true,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.0003 [-0.0109, 0.0117]",
+    "separates": false,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0014 [-0.0141, 0.0102]",
+    "separates": false,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.0026 [-0.0107, 0.0164]",
+    "separates": false,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0912 [-0.0994, -0.0839]",
+    "separates": true,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.1174 [-0.1284, -0.1062]",
+    "separates": true,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0010 [-0.0056, 0.0038]",
+    "separates": false,
+    "source": "phase2b_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.0049 [-0.0023, 0.0126]",
+    "separates": false,
+    "source": "phase2b_a005_analysis.json"
+   }
+  ],
+  "R_BA alpha 0.02": [
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.1027 [0.0902, 0.1164]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.1509 [0.1318, 0.1709]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0249 [0.0175, 0.0331]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.0310 [0.0186, 0.0426]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0273 [0.0202, 0.0353]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.0376 [0.0263, 0.0488]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0133 [-0.0254, -0.0005]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0027 [-0.0146, 0.0089]",
+    "separates": false,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0348 [-0.0408, -0.0288]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0304 [-0.0395, -0.0211]",
+    "separates": true,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0050 [-0.0025, 0.0122]",
+    "separates": false,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0006 [-0.0093, 0.0081]",
+    "separates": false,
+    "source": "phase2b_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax (regenerated) - greedy_chunk",
+    "rule / scale": "full (regenerated)",
+    "N": 8,
+    "diff [95 % CI]": "-0.0151 [-0.0210, -0.0090]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax (regenerated) - greedy_chunk",
+    "rule / scale": "full (regenerated)",
+    "N": 32,
+    "diff [95 % CI]": "0.0128 [0.0045, 0.0215]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax - greedy_chunk",
+    "rule / scale": "additive (logs)",
+    "N": 8,
+    "diff [95 % CI]": "-0.0135 [-0.0195, -0.0072]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax - greedy_chunk",
+    "rule / scale": "additive (logs)",
+    "N": 32,
+    "diff [95 % CI]": "0.0104 [0.0025, 0.0183]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax - lattice_smc_notwist (draw)",
+    "rule / scale": "additive (logs)",
+    "N": 8,
+    "diff [95 % CI]": "0.0266 [0.0212, 0.0316]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax - lattice_smc_notwist (draw)",
+    "rule / scale": "additive (logs)",
+    "N": 32,
+    "diff [95 % CI]": "0.0424 [0.0364, 0.0487]",
+    "separates": true,
+    "source": "u_analysis.json"
+   }
+  ],
+  "R_rep alpha 0.02": [
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0943 [0.0656, 0.1239]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.1529 [0.1292, 0.1766]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0379 [-0.0728, -0.0081]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0306 [-0.0593, -0.0053]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0366 [-0.0713, -0.0055]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0246 [-0.0524, 0.0007]",
+    "separates": false,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0635 [-0.1000, -0.0296]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0498 [-0.0779, -0.0277]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0013 [-0.0200, 0.0235]",
+    "separates": false,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0166 [-0.0372, 0.0035]",
+    "separates": false,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0520 [-0.0867, -0.0206]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0529 [-0.0833, -0.0270]",
+    "separates": true,
+    "source": "phase3_rep_a002_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax (regenerated) - greedy_chunk",
+    "rule / scale": "full (regenerated)",
+    "N": 8,
+    "diff [95 % CI]": "0.0635 [0.0448, 0.0836]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax (regenerated) - greedy_chunk",
+    "rule / scale": "full (regenerated)",
+    "N": 32,
+    "diff [95 % CI]": "0.0593 [0.0391, 0.0833]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax - greedy_chunk",
+    "rule / scale": "additive (logs)",
+    "N": 8,
+    "diff [95 % CI]": "0.0635 [0.0434, 0.0834]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax - greedy_chunk",
+    "rule / scale": "additive (logs)",
+    "N": 32,
+    "diff [95 % CI]": "0.0593 [0.0383, 0.0836]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax - lattice_smc_notwist (draw)",
+    "rule / scale": "additive (logs)",
+    "N": 8,
+    "diff [95 % CI]": "0.0102 [0.0080, 0.0125]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_notwist-argmax - lattice_smc_notwist (draw)",
+    "rule / scale": "additive (logs)",
+    "N": 32,
+    "diff [95 % CI]": "0.0230 [0.0192, 0.0271]",
+    "separates": true,
+    "source": "u_analysis.json"
+   }
+  ],
+  "R_rep alpha 0.05": [
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "0.0882 [0.0679, 0.1113]",
+    "separates": true,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - base",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "0.1369 [0.1121, 0.1622]",
+    "separates": true,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0439 [-0.0684, -0.0229]",
+    "separates": true,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_argmax",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0465 [-0.0596, -0.0343]",
+    "separates": true,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0274 [-0.0539, -0.0028]",
+    "separates": true,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - bon_is",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0127 [-0.0299, 0.0024]",
+    "separates": false,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0254 [-0.0549, 0.0001]",
+    "separates": false,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - fk_noise",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0004 [-0.0208, 0.0189]",
+    "separates": false,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0048 [-0.0200, 0.0134]",
+    "separates": false,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - greedy_chunk",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0326 [-0.0507, -0.0103]",
+    "separates": true,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 8,
+    "diff [95 % CI]": "-0.0227 [-0.0510, 0.0004]",
+    "separates": false,
+    "source": "phase3_rep_a005_analysis.json"
+   },
+   {
+    "pair": "lattice_smc - lattice_smc_notwist",
+    "rule / scale": "draw, full",
+    "N": 32,
+    "diff [95 % CI]": "-0.0097 [-0.0254, 0.0037]",
+    "separates": false,
+    "source": "phase3_rep_a005_analysis.json"
+   }
+  ],
+  "music terminal CLAP": [
+   {
+    "pair": "fk_noise-argmax - greedy_chunk",
+    "rule": "argmax",
+    "N": 8,
+    "diff [95 % CI]": "0.0093 [0.0031, 0.0154]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "fk_noise-argmax - greedy_chunk",
+    "rule": "argmax",
+    "N": 32,
+    "diff [95 % CI]": "0.0087 [0.0040, 0.0132]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b0.5 - lattice_smc_prefix_b0.25",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "0.0079 [0.0033, 0.0124]",
+    "separates": true,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b0.5 - lattice_smc_prefix_b0.25",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "0.0109 [0.0058, 0.0157]",
+    "separates": true,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - bon_is",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "0.0209 [0.0163, 0.0257]",
+    "separates": true,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - bon_is",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "0.0198 [0.0156, 0.0244]",
+    "separates": true,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - fk_noise",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "-0.0040 [-0.0110, 0.0028]",
+    "separates": false,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - fk_noise",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "0.0017 [-0.0035, 0.0063]",
+    "separates": false,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - greedy_chunk",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "-0.0021 [-0.0056, 0.0011]",
+    "separates": false,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - greedy_chunk",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "-0.0035 [-0.0075, 0.0006]",
+    "separates": false,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - lattice_smc_prefix_b0.25",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "0.0162 [0.0126, 0.0202]",
+    "separates": true,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - lattice_smc_prefix_b0.25",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "0.0143 [0.0107, 0.0186]",
+    "separates": true,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - lattice_smc_prefix_b0.5",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "0.0083 [0.0047, 0.0125]",
+    "separates": true,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - lattice_smc_prefix_b0.5",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "0.0034 [-0.0002, 0.0071]",
+    "separates": false,
+    "source": "m3_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - greedy_chunk",
+    "rule": "argmax",
+    "N": 8,
+    "diff [95 % CI]": "0.0018 [-0.0010, 0.0049]",
+    "separates": false,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - greedy_chunk",
+    "rule": "argmax",
+    "N": 32,
+    "diff [95 % CI]": "0.0089 [0.0060, 0.0119]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - lattice_smc_prefix_b1 (draw)",
+    "rule": "argmax",
+    "N": 8,
+    "diff [95 % CI]": "0.0040 [0.0027, 0.0053]",
+    "separates": true,
+    "source": "u_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - lattice_smc_prefix_b1 (draw)",
+    "rule": "argmax",
+    "N": 32,
+    "diff [95 % CI]": "0.0124 [0.0099, 0.0151]",
+    "separates": true,
+    "source": "u_analysis.json"
+   }
+  ],
+  "music R_motif": [
+   {
+    "pair": "greedy_chunk - bon_is",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "0.0024 [-0.0050, 0.0098]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "greedy_chunk - bon_is",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "0.0138 [0.0065, 0.0219]",
+    "separates": true,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - bon_is",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "-0.0014 [-0.0107, 0.0070]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - bon_is",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "-0.0017 [-0.0090, 0.0060]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - fk_noise",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "-0.0042 [-0.0151, 0.0061]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - fk_noise",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "-0.0056 [-0.0146, 0.0035]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - greedy_chunk",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "-0.0038 [-0.0105, 0.0027]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - greedy_chunk",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "-0.0155 [-0.0219, -0.0085]",
+    "separates": true,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - lattice_smc_prefix_b0.25",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "-0.0034 [-0.0128, 0.0059]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - lattice_smc_prefix_b0.25",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "-0.0033 [-0.0105, 0.0037]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - lattice_smc_prefix_b0.5",
+    "rule": "draw",
+    "N": 8,
+    "diff [95 % CI]": "-0.0033 [-0.0115, 0.0041]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1 - lattice_smc_prefix_b0.5",
+    "rule": "draw",
+    "N": 32,
+    "diff [95 % CI]": "-0.0004 [-0.0076, 0.0068]",
+    "separates": false,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - bon_is",
+    "rule": "argmax",
+    "N": 8,
+    "diff [95 % CI]": "0.0099 [0.0030, 0.0168]",
+    "separates": true,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - bon_is",
+    "rule": "argmax",
+    "N": 32,
+    "diff [95 % CI]": "0.0248 [0.0187, 0.0308]",
+    "separates": true,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - greedy_chunk",
+    "rule": "argmax",
+    "N": 8,
+    "diff [95 % CI]": "0.0075 [0.0012, 0.0134]",
+    "separates": true,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - greedy_chunk",
+    "rule": "argmax",
+    "N": 32,
+    "diff [95 % CI]": "0.0110 [0.0050, 0.0174]",
+    "separates": true,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - lattice_smc_prefix_b1",
+    "rule": "argmax",
+    "N": 8,
+    "diff [95 % CI]": "0.0113 [0.0080, 0.0149]",
+    "separates": true,
+    "source": "m4_analysis.json"
+   },
+   {
+    "pair": "lattice_smc_prefix_b1-argmax - lattice_smc_prefix_b1",
+    "rule": "argmax",
+    "N": 32,
+    "diff [95 % CI]": "0.0265 [0.0220, 0.0316]",
+    "separates": true,
+    "source": "m4_analysis.json"
+   }
+  ]
+ },
+ "crossover": {
+  "R_BA alpha 0.2": {
+   "lattice_smc_notwist|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.05425582551880583,
+    "ci_lo": -0.0612603610885829,
+    "ci_hi": -0.047412230915172195,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03169563460862339,
+    "ci_lo": -0.037821265262398374,
+    "ci_hi": -0.025439314382452508,
+    "separates": true
+   },
+   "lattice_smc|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.05425582551880583,
+    "ci_lo": -0.0608022865951864,
+    "ci_hi": -0.04765941452795468,
+    "separates": true
+   },
+   "lattice_smc|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03169563460862339,
+    "ci_lo": -0.03817191400428431,
+    "ci_hi": -0.025235428462945898,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.09163719524119389,
+    "ci_lo": -0.1009333227496002,
+    "ci_hi": -0.0824826024134525,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.055764936148508325,
+    "ci_lo": -0.06245873733190453,
+    "ci_hi": -0.04924992189877784,
+    "separates": true
+   },
+   "lattice_smc|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.09163719524119389,
+    "ci_lo": -0.10075185512628204,
+    "ci_hi": -0.08233335898686367,
+    "separates": true
+   },
+   "lattice_smc|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.055764936148508325,
+    "ci_lo": -0.06184797742652762,
+    "ci_hi": -0.049052554647211866,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.12599051663155442,
+    "ci_lo": -0.13770849353888578,
+    "ci_hi": -0.1156375248095552,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.06150930361505821,
+    "ci_lo": -0.06723749443283938,
+    "ci_hi": -0.05559340812376148,
+    "separates": true
+   },
+   "lattice_smc|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.12599051663155442,
+    "ci_lo": -0.13735304314068658,
+    "ci_hi": -0.11609679731197273,
+    "separates": true
+   },
+   "lattice_smc|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.06150930361505821,
+    "ci_lo": -0.06714889107279627,
+    "ci_hi": -0.05563498981460283,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.1470263823462507,
+    "ci_lo": -0.1597225785939714,
+    "ci_hi": -0.13341201581937312,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.06664104366752852,
+    "ci_lo": -0.07315985835914209,
+    "ci_hi": -0.06002264258786651,
+    "separates": true
+   },
+   "lattice_smc|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.1470263823462507,
+    "ci_lo": -0.160610512606826,
+    "ci_hi": -0.13354301352032635,
+    "separates": true
+   },
+   "lattice_smc|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.06664104366752852,
+    "ci_lo": -0.07322549501833783,
+    "ci_hi": -0.06022094345200278,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.16673506332836116,
+    "ci_lo": -0.18016289644795982,
+    "ci_hi": -0.15449207423450842,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.06611291210041328,
+    "ci_lo": -0.07284210882632719,
+    "ci_hi": -0.060373352894700735,
+    "separates": true
+   },
+   "lattice_smc|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.16673506332836116,
+    "ci_lo": -0.1806530463954017,
+    "ci_hi": -0.15315498035819158,
+    "separates": true
+   },
+   "lattice_smc|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.06611291210041328,
+    "ci_lo": -0.07282285611658909,
+    "ci_hi": -0.059496570288507675,
+    "separates": true
+   }
+  },
+  "R_BA alpha 0.05": {
+   "lattice_smc_notwist|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03736480921500096,
+    "ci_lo": -0.04465482099210295,
+    "ci_hi": -0.03053705696824895,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03169563460862339,
+    "ci_lo": -0.03836062836860663,
+    "ci_hi": -0.025924521745093687,
+    "separates": true
+   },
+   "lattice_smc|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03736480921500096,
+    "ci_lo": -0.04465817416151629,
+    "ci_hi": -0.030589702167308417,
+    "separates": true
+   },
+   "lattice_smc|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03169563460862339,
+    "ci_lo": -0.03788587549340539,
+    "ci_hi": -0.02564395897334124,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.0712595544293059,
+    "ci_lo": -0.07767519669488847,
+    "ci_hi": -0.06464227950102266,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.05303992059890097,
+    "ci_lo": -0.05916225795221217,
+    "ci_hi": -0.047100059868001004,
+    "separates": true
+   },
+   "lattice_smc|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.07140239264560591,
+    "ci_lo": -0.07817870884902796,
+    "ci_hi": -0.0648324314640648,
+    "separates": true
+   },
+   "lattice_smc|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.05207600220649781,
+    "ci_lo": -0.05815992822113859,
+    "ci_hi": -0.04627561208422584,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.09094367399567502,
+    "ci_lo": -0.0977705260868188,
+    "ci_hi": -0.0838688924330184,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.05355558695828316,
+    "ci_lo": -0.05931366173680268,
+    "ci_hi": -0.04820920198505177,
+    "separates": true
+   },
+   "lattice_smc|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.09116697381455119,
+    "ci_lo": -0.09835917909936555,
+    "ci_hi": -0.0841897404311042,
+    "separates": true
+   },
+   "lattice_smc|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.05294195469787446,
+    "ci_lo": -0.05893547199214597,
+    "ci_hi": -0.04674210879663322,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.10607225433126728,
+    "ci_lo": -0.11506761441667572,
+    "ci_hi": -0.0960328120596334,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.05048328441585674,
+    "ci_lo": -0.057058697542234096,
+    "ci_hi": -0.043434823407318364,
+    "separates": true
+   },
+   "lattice_smc|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.1028211939781029,
+    "ci_lo": -0.1119772055671792,
+    "ci_hi": -0.09409625722186753,
+    "separates": true
+   },
+   "lattice_smc|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.04831257608392367,
+    "ci_lo": -0.05478384025108381,
+    "ci_hi": -0.04216043237624983,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.12565916043538658,
+    "ci_lo": -0.13500692297359296,
+    "ci_hi": -0.11517044607162101,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.0471766024396415,
+    "ci_lo": -0.053965274027593144,
+    "ci_hi": -0.040109462880313564,
+    "separates": true
+   },
+   "lattice_smc|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.12120998876557336,
+    "ci_lo": -0.1305174680328309,
+    "ci_hi": -0.11154713653983307,
+    "separates": true
+   },
+   "lattice_smc|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.044712219676190365,
+    "ci_lo": -0.05122820519806218,
+    "ci_hi": -0.03838685855489601,
+    "separates": true
+   }
+  },
+  "R_BA alpha 0.02": {
+   "lattice_smc_notwist|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.0327729088489897,
+    "ci_lo": -0.03921476835497831,
+    "ci_hi": -0.026768553899209815,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03169563460862339,
+    "ci_lo": -0.037393887813947924,
+    "ci_hi": -0.02557906708189949,
+    "separates": true
+   },
+   "lattice_smc|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.0327729088489897,
+    "ci_lo": -0.03876697973705691,
+    "ci_hi": -0.026347041312426444,
+    "separates": true
+   },
+   "lattice_smc|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03169563460862339,
+    "ci_lo": -0.03814430508321218,
+    "ci_hi": -0.025939872066388717,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.037649759994355214,
+    "ci_lo": -0.04400230057225251,
+    "ci_hi": -0.031054345276196608,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.02857462739042347,
+    "ci_lo": -0.03478968921237346,
+    "ci_hi": -0.022529811805439927,
+    "separates": true
+   },
+   "lattice_smc|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03764760748244208,
+    "ci_lo": -0.0431263625720836,
+    "ci_hi": -0.03278056613213705,
+    "separates": true
+   },
+   "lattice_smc|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.027270884987855227,
+    "ci_lo": -0.032089995047394355,
+    "ci_hi": -0.022800242365648832,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.04010022416493407,
+    "ci_lo": -0.04651307576234089,
+    "ci_hi": -0.03269761576105839,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.013534399406358661,
+    "ci_lo": -0.020420125318657664,
+    "ci_hi": -0.0070968115894004345,
+    "separates": true
+   },
+   "lattice_smc|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03575007631762707,
+    "ci_lo": -0.04152635830195861,
+    "ci_hi": -0.029314774068174714,
+    "separates": true
+   },
+   "lattice_smc|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.013874809524970855,
+    "ci_lo": -0.01916528586751758,
+    "ci_hi": -0.008156702776617635,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03260015045572551,
+    "ci_lo": -0.042090706356174096,
+    "ci_hi": -0.023803101655758784,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.0023083936544115763,
+    "ci_lo": -0.009308024407147869,
+    "ci_hi": 0.0038349787194785706,
+    "separates": false
+   },
+   "lattice_smc|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03058014533380411,
+    "ci_lo": -0.03915409742506297,
+    "ci_hi": -0.02132585294560782,
+    "separates": true
+   },
+   "lattice_smc|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.0029290423403297264,
+    "ci_lo": -0.009512161516259502,
+    "ci_hi": 0.003320073926608668,
+    "separates": false
+   },
+   "lattice_smc_notwist|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.03193271290329105,
+    "ci_lo": -0.03990530538406469,
+    "ci_hi": -0.023614226336795257,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.010419134000718644,
+    "ci_lo": 0.0031711537663036047,
+    "ci_hi": 0.018184875694943915,
+    "separates": true
+   },
+   "lattice_smc|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.033393581880391265,
+    "ci_lo": -0.04148824982378786,
+    "ci_hi": -0.024907425642232753,
+    "separates": true
+   },
+   "lattice_smc|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.00807163641061645,
+    "ci_lo": 0.0005734178959682074,
+    "ci_hi": 0.015422388779721926,
+    "separates": true
+   }
+  },
+  "R_rep alpha 0.02": {
+   "lattice_smc_notwist|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.0067166420514695345,
+    "ci_lo": -0.0016179386185831387,
+    "ci_hi": 0.015782516429608217,
+    "separates": false
+   },
+   "lattice_smc_notwist|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.007179027481470257,
+    "ci_lo": -0.0007684182163211517,
+    "ci_hi": 0.01603768760804087,
+    "separates": false
+   },
+   "lattice_smc|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.0067166420514695345,
+    "ci_lo": -0.0014854781367466784,
+    "ci_hi": 0.016092514408228453,
+    "separates": false
+   },
+   "lattice_smc|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.007179027481470257,
+    "ci_lo": -0.0010965819214470685,
+    "ci_hi": 0.015939213907404336,
+    "separates": false
+   },
+   "lattice_smc_notwist|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.020081658090930432,
+    "ci_lo": 0.007589830846991391,
+    "ci_hi": 0.03495138993836008,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.025676402531098576,
+    "ci_lo": 0.014707425015221815,
+    "ci_hi": 0.03828021155844908,
+    "separates": true
+   },
+   "lattice_smc|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.015869718987960368,
+    "ci_lo": -0.04262140737409936,
+    "ci_hi": 0.010632268874614962,
+    "separates": false
+   },
+   "lattice_smc|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.006415308371651917,
+    "ci_lo": -0.03270701510948129,
+    "ci_hi": 0.018473757986794223,
+    "separates": false
+   },
+   "lattice_smc_notwist|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.05329434315208346,
+    "ci_lo": 0.033409648505621586,
+    "ci_hi": 0.07463727679336442,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.06345385543536394,
+    "ci_lo": 0.045812491808319464,
+    "ci_hi": 0.08345910149626434,
+    "separates": true
+   },
+   "lattice_smc|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.0012613757280632854,
+    "ci_lo": -0.02115820387727581,
+    "ci_hi": 0.023449396301293737,
+    "separates": false
+   },
+   "lattice_smc|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.014406465995125472,
+    "ci_lo": -0.007736205823603086,
+    "ci_hi": 0.03580533871310763,
+    "separates": false
+   },
+   "lattice_smc_notwist|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.05708946939557791,
+    "ci_lo": 0.031272836343850946,
+    "ci_hi": 0.08575382846756838,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.07822610014118254,
+    "ci_lo": 0.05364272612379864,
+    "ci_hi": 0.10678175690467469,
+    "separates": true
+   },
+   "lattice_smc|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 7.735979743301868e-05,
+    "ci_lo": -0.025680190726416186,
+    "ci_hi": 0.02188055101316422,
+    "separates": false
+   },
+   "lattice_smc|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.018478063424117862,
+    "ci_lo": -0.006858655616524629,
+    "ci_hi": 0.04103954911697656,
+    "separates": false
+   },
+   "lattice_smc_notwist|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.03629398597404361,
+    "ci_lo": 0.015351205205079167,
+    "ci_hi": 0.061613131148042156,
+    "separates": true
+   },
+   "lattice_smc_notwist|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.05931599219329655,
+    "ci_lo": 0.03754940697690472,
+    "ci_hi": 0.08270939199603163,
+    "separates": true
+   },
+   "lattice_smc|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.01662673654500395,
+    "ci_lo": -0.035942214539973066,
+    "ci_hi": 0.001971054904279297,
+    "separates": false
+   },
+   "lattice_smc|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.007124202745035291,
+    "ci_lo": -0.013079050569212994,
+    "ci_hi": 0.02618878576438874,
+    "separates": false
+   }
+  },
+  "R_rep alpha 0.05": {
+   "lattice_smc_notwist|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.0034051558119244873,
+    "ci_lo": -0.005557621924672276,
+    "ci_hi": 0.01259407686186023,
+    "separates": false
+   },
+   "lattice_smc_notwist|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.007179027481470257,
+    "ci_lo": -0.0011200128312339073,
+    "ci_hi": 0.01614986589323962,
+    "separates": false
+   },
+   "lattice_smc|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.0034051558119244873,
+    "ci_lo": -0.005242031325178686,
+    "ci_hi": 0.01199621172563638,
+    "separates": false
+   },
+   "lattice_smc|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.007179027481470257,
+    "ci_lo": -0.000671140152553562,
+    "ci_hi": 0.016434923967462964,
+    "separates": false
+   },
+   "lattice_smc_notwist|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.003594944498036057,
+    "ci_lo": -0.010792873759928625,
+    "ci_hi": 0.018159028706140817,
+    "separates": false
+   },
+   "lattice_smc_notwist|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.01737309928284958,
+    "ci_lo": 0.004093269884760957,
+    "ci_hi": 0.031148933571239466,
+    "separates": true
+   },
+   "lattice_smc|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.0075505829532630745,
+    "ci_lo": -0.022691502033558207,
+    "ci_hi": 0.008508656591584422,
+    "separates": false
+   },
+   "lattice_smc|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.010305069072637707,
+    "ci_lo": -0.0038698734418721866,
+    "ci_hi": 0.025381323566543868,
+    "separates": false
+   },
+   "lattice_smc_notwist|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.017950715916231274,
+    "ci_lo": -0.0019386830902658402,
+    "ci_hi": 0.04073483759362716,
+    "separates": false
+   },
+   "lattice_smc_notwist|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.0507303478429094,
+    "ci_lo": 0.0292352631612448,
+    "ci_hi": 0.07403961053583771,
+    "separates": true
+   },
+   "lattice_smc|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.004759569023735821,
+    "ci_lo": -0.021831526064197533,
+    "ci_hi": 0.012853793548420065,
+    "separates": false
+   },
+   "lattice_smc|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.024567338381893934,
+    "ci_lo": 0.009908398875268176,
+    "ci_hi": 0.04050934040162246,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.010142048844136298,
+    "ci_lo": -0.018578771426691676,
+    "ci_hi": 0.04214098049502353,
+    "separates": false
+   },
+   "lattice_smc_notwist|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.06102262425702065,
+    "ci_lo": 0.03311943231499754,
+    "ci_hi": 0.09417878588894382,
+    "separates": true
+   },
+   "lattice_smc|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.01667600714135915,
+    "ci_lo": -0.03203480201947968,
+    "ci_hi": 0.00024671560269780426,
+    "separates": false
+   },
+   "lattice_smc|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.041195701854303476,
+    "ci_lo": 0.02676425507524982,
+    "ci_hi": 0.057323618395021175,
+    "separates": true
+   },
+   "lattice_smc_notwist|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.022883061901666224,
+    "ci_lo": -0.046216812566271984,
+    "ci_hi": 0.0006848305900348336,
+    "separates": false
+   },
+   "lattice_smc_notwist|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.03614588682539761,
+    "ci_lo": 0.011643721584696324,
+    "ci_hi": 0.06359998546773567,
+    "separates": true
+   },
+   "lattice_smc|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": -0.032550836284644905,
+    "ci_lo": -0.0509926597320009,
+    "ci_hi": -0.009754997044801714,
+    "separates": true
+   },
+   "lattice_smc|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 160,
+    "diff": 0.036056150356307624,
+    "ci_lo": 0.02063936907565221,
+    "ci_hi": 0.052062749225879085,
+    "separates": true
+   }
+  },
+  "music terminal CLAP": {
+   "lattice_smc_prefix_b1|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.011548234662574255,
+    "ci_lo": -0.015647982947063117,
+    "ci_hi": -0.007812987516932591,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.01151863303886461,
+    "ci_lo": -0.015896009657288174,
+    "ci_hi": -0.007381501434694069,
+    "separates": true
+   },
+   "fk_noise|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.011536680364924992,
+    "ci_lo": -0.01572626222674027,
+    "ci_hi": -0.007575550915269693,
+    "separates": true
+   },
+   "fk_noise|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.01151863303886461,
+    "ci_lo": -0.015842490166773554,
+    "ci_hi": -0.007654984337196782,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.004881610574094397,
+    "ci_lo": -0.007616473310009728,
+    "ci_hi": -0.0017629366239706517,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.0024571827240693644,
+    "ci_lo": -0.0049228582780550196,
+    "ci_hi": 0.00032445668830950633,
+    "separates": false
+   },
+   "fk_noise|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.0023103091221072783,
+    "ci_lo": -0.008223448742238371,
+    "ci_hi": 0.004446117695317022,
+    "separates": false
+   },
+   "fk_noise|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.001026894810669913,
+    "ci_lo": -0.004797014041653783,
+    "ci_hi": 0.007131181078236156,
+    "separates": false
+   },
+   "lattice_smc_prefix_b1|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.0021398805144846635,
+    "ci_lo": -0.0053896478587977335,
+    "ci_hi": 0.0013275435588925313,
+    "separates": false
+   },
+   "lattice_smc_prefix_b1|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.0018113166173057012,
+    "ci_lo": -0.0015898433070974168,
+    "ci_hi": 0.0049748380555959945,
+    "separates": false
+   },
+   "fk_noise|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.0018743776237351531,
+    "ci_lo": -0.003754967593090556,
+    "ci_hi": 0.008025499213620998,
+    "separates": false
+   },
+   "fk_noise|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.009251435159995854,
+    "ci_lo": 0.0032208679582730816,
+    "ci_hi": 0.015549319519141838,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.005480868787611483,
+    "ci_lo": -0.009167648407989582,
+    "ci_hi": -0.002059668031412643,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.004380706933641625,
+    "ci_lo": 0.0015181100582975465,
+    "ci_hi": 0.007411511199071279,
+    "separates": true
+   },
+   "fk_noise|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.001960359624261858,
+    "ci_lo": -0.006422701641349451,
+    "ci_hi": 0.0028490735668108107,
+    "separates": false
+   },
+   "fk_noise|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.008598425828201778,
+    "ci_lo": 0.004236896749513349,
+    "ci_hi": 0.013161266375476613,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.0035292106725190765,
+    "ci_lo": -0.0076911921875267375,
+    "ci_hi": 0.0003853378819909512,
+    "separates": false
+   },
+   "lattice_smc_prefix_b1|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.00885549953062099,
+    "ci_lo": 0.006032692447584392,
+    "ci_hi": 0.011791503912240793,
+    "separates": true
+   },
+   "fk_noise|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.00522993964553852,
+    "ci_lo": -0.009690695534400523,
+    "ci_hi": -0.0006252499765640454,
+    "separates": true
+   },
+   "fk_noise|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.008695263749275617,
+    "ci_lo": 0.004266903607891377,
+    "ci_hi": 0.013473287160183804,
+    "separates": true
+   }
+  },
+  "music R_motif": {
+   "lattice_smc_prefix_b1|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.0007124665185788595,
+    "ci_lo": -0.007868609671778779,
+    "ci_hi": 0.00959106382822262,
+    "separates": false
+   },
+   "lattice_smc_prefix_b1|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.0007498217222319331,
+    "ci_lo": -0.008263267028642178,
+    "ci_hi": 0.010065639412859326,
+    "separates": false
+   },
+   "fk_noise|draw|2": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.0005948028462919516,
+    "ci_lo": -0.008540424216637886,
+    "ci_hi": 0.008644581893966073,
+    "separates": false
+   },
+   "fk_noise|argmax|2": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.0007498217222319331,
+    "ci_lo": -0.008724490647802731,
+    "ci_hi": 0.009001517265261898,
+    "separates": false
+   },
+   "lattice_smc_prefix_b1|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.0019078966400583972,
+    "ci_lo": -0.00804811741029926,
+    "ci_hi": 0.012384736402578114,
+    "separates": false
+   },
+   "lattice_smc_prefix_b1|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.008322235631355146,
+    "ci_lo": -0.0003681008162291517,
+    "ci_hi": 0.017036850378228906,
+    "separates": false
+   },
+   "fk_noise|draw|4": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.005530788544164038,
+    "ci_lo": -0.003700700310533673,
+    "ci_hi": 0.014551783552438592,
+    "separates": false
+   },
+   "fk_noise|argmax|4": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.015352374040728211,
+    "ci_lo": 0.006252345217650494,
+    "ci_hi": 0.023603449335413928,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.003798728899796941,
+    "ci_lo": -0.01046779584750422,
+    "ci_hi": 0.0028302261456408123,
+    "separates": false
+   },
+   "lattice_smc_prefix_b1|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.007488692992042219,
+    "ci_lo": 0.0009999035556573581,
+    "ci_hi": 0.013605669750198522,
+    "separates": true
+   },
+   "fk_noise|draw|8": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.0004312341684201554,
+    "ci_lo": -0.008888853960907555,
+    "ci_hi": 0.009836067672007984,
+    "separates": false
+   },
+   "fk_noise|argmax|8": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.01562638535637286,
+    "ci_lo": 0.007138054768909614,
+    "ci_hi": 0.025171971018467767,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.005220513125324006,
+    "ci_lo": -0.012840310553361428,
+    "ci_hi": 0.002315078412437884,
+    "separates": false
+   },
+   "lattice_smc_prefix_b1|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.012066476310094743,
+    "ci_lo": 0.005309449460873025,
+    "ci_hi": 0.018812723235043294,
+    "separates": true
+   },
+   "fk_noise|draw|16": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.007633876289222805,
+    "ci_lo": -0.0165881097075237,
+    "ci_hi": 0.0012687439774550786,
+    "separates": false
+   },
+   "fk_noise|argmax|16": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.016886434476987768,
+    "ci_lo": 0.010381665023778925,
+    "ci_hi": 0.023519714038093918,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.015470611272989699,
+    "ci_lo": -0.02239528827850262,
+    "ci_hi": -0.008992878594304046,
+    "separates": true
+   },
+   "lattice_smc_prefix_b1|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.011011677582374275,
+    "ci_lo": 0.00512494438351102,
+    "ci_hi": 0.01712874989696312,
+    "separates": true
+   },
+   "fk_noise|draw|32": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": -0.00987954074313637,
+    "ci_lo": -0.01605139829340248,
+    "ci_hi": -0.003519244460688161,
+    "separates": true
+   },
+   "fk_noise|argmax|32": {
+    "n_prompts": 40,
+    "n_sequences": 80,
+    "diff": 0.01348565286688276,
+    "ci_lo": 0.006906798311586106,
+    "ci_hi": 0.019567854245508675,
+    "separates": true
+   }
+  }
+ }
+}

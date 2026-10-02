@@ -1,0 +1,11 @@
+# Draft verification (2026-09-18): deterministic regeneration of fk_noise with the argmax return rule at N = 32 (same particles
+# and draws as the stored grid, Amendment U mechanism), to evaluate the full R_BA of the argmax particle (dagger cells).
+ckpt: runs/chunk_dispE_L/ckpt_adopted.pt
+methods: [fk_noise]
+Ns: [32]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_L_ba_a002_fkargmax
+alpha: 0.02
+reward: ba
+return_rule: argmax

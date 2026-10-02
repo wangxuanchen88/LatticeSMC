@@ -1,0 +1,19 @@
+# Base run config (SPEC 4). total_steps is set from the measured throughput so that one
+# run takes about 25 minutes on one A6000 (see RESULTS.md Phase 1); do not change it
+# between runs afterwards.
+seed: 101
+clip_pool: clips_train.json
+heldout_pool: clips_heldout.json
+span_mask_file: null
+model:
+  latent_dim: 192
+  ff_size: 384
+  num_layers: 4
+  num_heads: 4
+  dropout: 0.1
+total_steps: 14000
+batch_size: 64
+lr: 4.0e-4
+weight_decay: 0.02
+eval_every: 1000
+save_fracs: [0.5, 0.75, 1.0]

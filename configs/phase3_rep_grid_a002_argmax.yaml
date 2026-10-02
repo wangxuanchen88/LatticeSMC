@@ -1,0 +1,10 @@
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [lattice_smc_notwist]
+Ns: [8,32]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_p3_rep_a002_argmax
+alpha: 0.02
+twist: data/twist_rep/twist_a002.pt
+reward: rep
+return_rule: argmax

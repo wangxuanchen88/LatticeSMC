@@ -1,0 +1,36 @@
+{
+ "N": 32,
+ "n_sequences": 160,
+ "n_bitwise_equal_to_stored": 160,
+ "learned_within_set_sd_logpsi_mean": {
+  "1": 3.796413377767972,
+  "2": 3.9144149108323925,
+  "3": 2.849683003196566
+ },
+ "learned_within_set_sd_logpsi_median": {
+  "1": 3.29341436601692,
+  "2": 3.2705201583292673,
+  "3": 2.725344586336791
+ },
+ "oracle_subset_n_sets": {
+  "1": 5,
+  "2": 5
+ },
+ "oracle_within_set_sd_logpsi_mean": {
+  "1": 3.3196838407977856,
+  "2": 3.0206867512177293
+ },
+ "within_set_residual_sd_learned_minus_oracle_mean": {
+  "1": 6.5678134539510085,
+  "2": 5.457475159132239
+ },
+ "oracle_mc_se_nats_mean": {
+  "1": 0.6005086639063046,
+  "2": 0.5149852417791931
+ },
+ "within_set_corr_learned_oracle_mean": {
+  "1": -0.04030548680938804,
+  "2": 0.34961699126458756
+ },
+ "oracle_nfe_total": 1280000
+}

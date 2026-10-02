@@ -1,0 +1,7 @@
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [lattice_smc_notwist]
+Ns: [32]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_p2_argmax
+return_rule: argmax

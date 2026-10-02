@@ -1,0 +1,44 @@
+{
+ "4M": {
+  "n_sequences": 160,
+  "n_prompts": 40,
+  "replay_bitwise_ok": 160,
+  "full_mean": 0.44148017506970394,
+  "full_ci": [
+   0.41916510316984623,
+   0.4638152932876957
+  ],
+  "additive_mean": 0.43808557130163306,
+  "logged_argmax_mean": 0.43808557130163306,
+  "full_minus_logged_mean": 0.003394603768070903,
+  "full_minus_logged_ci": [
+   0.0010224156417816769,
+   0.005792313445398523
+  ],
+  "max_abs_additive_minus_logged": 1.1102230246251565e-16,
+  "frac_sequences_within_0.01": 0.725,
+  "pfc_mean": 2.113041483056577,
+  "w1_mean": 0.008216109292858709
+ },
+ "38M": {
+  "n_sequences": 160,
+  "n_prompts": 40,
+  "replay_bitwise_ok": 160,
+  "full_mean": 0.4550606048947943,
+  "full_ci": [
+   0.4329127620073555,
+   0.4783273467082086
+  ],
+  "additive_mean": 0.4500168612809965,
+  "logged_argmax_mean": 0.4500168612809965,
+  "full_minus_logged_mean": 0.005043743613797846,
+  "full_minus_logged_ci": [
+   0.002364455413578249,
+   0.007788621714013597
+  ],
+  "max_abs_additive_minus_logged": 1.1102230246251565e-16,
+  "frac_sequences_within_0.01": 0.66875,
+  "pfc_mean": 1.1549630438167924,
+  "w1_mean": 0.005771811643663109
+ }
+}

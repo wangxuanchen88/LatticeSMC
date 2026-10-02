@@ -1,0 +1,282 @@
+[
+  {
+    "id": 0,
+    "genre": "rock",
+    "tempo_bpm": 156,
+    "instrumentation": "distorted electric guitars, bass guitar and a drum kit",
+    "text": "Gritty instrumental rock track with distorted electric guitars, bass guitar and a drum kit, at 156 BPM, no vocals"
+  },
+  {
+    "id": 1,
+    "genre": "rock",
+    "tempo_bpm": 128,
+    "instrumentation": "clean electric guitar, bass and drums",
+    "text": "Upbeat instrumental rock track with clean electric guitar, bass and drums, at 128 BPM, no vocals"
+  },
+  {
+    "id": 2,
+    "genre": "rock",
+    "tempo_bpm": 152,
+    "instrumentation": "electric guitar power chords, Hammond organ, bass and drums",
+    "text": "Driving instrumental rock track with electric guitar power chords, Hammond organ, bass and drums, at 152 BPM, no vocals"
+  },
+  {
+    "id": 3,
+    "genre": "rock",
+    "tempo_bpm": 160,
+    "instrumentation": "twin lead guitars, bass guitar and drums",
+    "text": "Raw instrumental rock track with twin lead guitars, bass guitar and drums, at 160 BPM, no vocals"
+  },
+  {
+    "id": 4,
+    "genre": "rock",
+    "tempo_bpm": 104,
+    "instrumentation": "crunchy rhythm guitar, bass and a driving drum kit",
+    "text": "Energetic instrumental rock track with crunchy rhythm guitar, bass and a driving drum kit, at 104 BPM, no vocals"
+  },
+  {
+    "id": 5,
+    "genre": "pop",
+    "tempo_bpm": 118,
+    "instrumentation": "bright synths, electric piano, bass and drums",
+    "text": "Polished instrumental pop track with bright synths, electric piano, bass and drums, at 118 BPM, no vocals"
+  },
+  {
+    "id": 6,
+    "genre": "pop",
+    "tempo_bpm": 108,
+    "instrumentation": "acoustic guitar, piano, bass and drums",
+    "text": "Catchy instrumental pop track with acoustic guitar, piano, bass and drums, at 108 BPM, no vocals"
+  },
+  {
+    "id": 7,
+    "genre": "pop",
+    "tempo_bpm": 112,
+    "instrumentation": "synth pads, plucked synths, clap-heavy drums and bass",
+    "text": "Sunny instrumental pop track with synth pads, plucked synths, clap-heavy drums and bass, at 112 BPM, no vocals"
+  },
+  {
+    "id": 8,
+    "genre": "pop",
+    "tempo_bpm": 100,
+    "instrumentation": "electric guitar, keyboards, bass and drums",
+    "text": "Feel-good instrumental pop track with electric guitar, keyboards, bass and drums, at 100 BPM, no vocals"
+  },
+  {
+    "id": 9,
+    "genre": "pop",
+    "tempo_bpm": 104,
+    "instrumentation": "piano, strings, bass and a punchy drum kit",
+    "text": "Glossy instrumental pop track with piano, strings, bass and a punchy drum kit, at 104 BPM, no vocals"
+  },
+  {
+    "id": 10,
+    "genre": "jazz",
+    "tempo_bpm": 136,
+    "instrumentation": "piano trio with upright bass and brushed drums",
+    "text": "Mellow instrumental jazz track with piano trio with upright bass and brushed drums, at 136 BPM, no vocals"
+  },
+  {
+    "id": 11,
+    "genre": "jazz",
+    "tempo_bpm": 112,
+    "instrumentation": "tenor saxophone, piano, upright bass and drums",
+    "text": "Lively instrumental jazz track with tenor saxophone, piano, upright bass and drums, at 112 BPM, no vocals"
+  },
+  {
+    "id": 12,
+    "genre": "jazz",
+    "tempo_bpm": 192,
+    "instrumentation": "trumpet, piano, double bass and ride cymbal",
+    "text": "Late-night instrumental jazz track with trumpet, piano, double bass and ride cymbal, at 192 BPM, no vocals"
+  },
+  {
+    "id": 13,
+    "genre": "jazz",
+    "tempo_bpm": 108,
+    "instrumentation": "vibraphone, hollow-body guitar, upright bass and drums",
+    "text": "Smooth instrumental jazz track with vibraphone, hollow-body guitar, upright bass and drums, at 108 BPM, no vocals"
+  },
+  {
+    "id": 14,
+    "genre": "jazz",
+    "tempo_bpm": 184,
+    "instrumentation": "Hammond organ, guitar and a swinging drum kit",
+    "text": "Swinging instrumental jazz track with Hammond organ, guitar and a swinging drum kit, at 184 BPM, no vocals"
+  },
+  {
+    "id": 15,
+    "genre": "electronic",
+    "tempo_bpm": 130,
+    "instrumentation": "analog synth bass, synth pads and a drum machine",
+    "text": "Dark instrumental electronic track with analog synth bass, synth pads and a drum machine, at 130 BPM, no vocals"
+  },
+  {
+    "id": 16,
+    "genre": "electronic",
+    "tempo_bpm": 128,
+    "instrumentation": "808 drums, synth lead and arpeggiated synths",
+    "text": "Bright instrumental electronic track with 808 drums, synth lead and arpeggiated synths, at 128 BPM, no vocals"
+  },
+  {
+    "id": 17,
+    "genre": "electronic",
+    "tempo_bpm": 136,
+    "instrumentation": "four-on-the-floor kick, crisp hi-hats, synth chords and sub bass",
+    "text": "Pulsing instrumental electronic track with four-on-the-floor kick, crisp hi-hats, synth chords and sub bass, at 136 BPM, no vocals"
+  },
+  {
+    "id": 18,
+    "genre": "electronic",
+    "tempo_bpm": 124,
+    "instrumentation": "modular synth sequences and electronic drums",
+    "text": "Shimmering instrumental electronic track with modular synth sequences and electronic drums, at 124 BPM, no vocals"
+  },
+  {
+    "id": 19,
+    "genre": "electronic",
+    "tempo_bpm": 132,
+    "instrumentation": "synth arpeggios, plucks and electronic percussion",
+    "text": "Hypnotic instrumental electronic track with synth arpeggios, plucks and electronic percussion, at 132 BPM, no vocals"
+  },
+  {
+    "id": 20,
+    "genre": "hip hop",
+    "tempo_bpm": 94,
+    "instrumentation": "boom bap drums, sampled piano and bass",
+    "text": "Laid-back instrumental hip hop track with boom bap drums, sampled piano and bass, at 94 BPM, no vocals"
+  },
+  {
+    "id": 21,
+    "genre": "hip hop",
+    "tempo_bpm": 98,
+    "instrumentation": "trap hi-hats, 808 bass and a synth melody",
+    "text": "Hard instrumental hip hop track with trap hi-hats, 808 bass and a synth melody, at 98 BPM, no vocals"
+  },
+  {
+    "id": 22,
+    "genre": "hip hop",
+    "tempo_bpm": 84,
+    "instrumentation": "vinyl drum breaks, electric piano and bass",
+    "text": "Gritty instrumental hip hop track with vinyl drum breaks, electric piano and bass, at 84 BPM, no vocals"
+  },
+  {
+    "id": 23,
+    "genre": "hip hop",
+    "tempo_bpm": 100,
+    "instrumentation": "lo-fi drums, muted guitar and bass",
+    "text": "Dusty instrumental hip hop track with lo-fi drums, muted guitar and bass, at 100 BPM, no vocals"
+  },
+  {
+    "id": 24,
+    "genre": "hip hop",
+    "tempo_bpm": 92,
+    "instrumentation": "hard-hitting drums, brass stabs and bass",
+    "text": "Smooth instrumental hip hop track with hard-hitting drums, brass stabs and bass, at 92 BPM, no vocals"
+  },
+  {
+    "id": 25,
+    "genre": "funk",
+    "tempo_bpm": 118,
+    "instrumentation": "slap bass, wah guitar, horns and drums",
+    "text": "Tight instrumental funk track with slap bass, wah guitar, horns and drums, at 118 BPM, no vocals"
+  },
+  {
+    "id": 26,
+    "genre": "funk",
+    "tempo_bpm": 98,
+    "instrumentation": "clavinet, funky guitar, bass and drums",
+    "text": "Syncopated instrumental funk track with clavinet, funky guitar, bass and drums, at 98 BPM, no vocals"
+  },
+  {
+    "id": 27,
+    "genre": "funk",
+    "tempo_bpm": 102,
+    "instrumentation": "trumpets, trombone, electric bass, rhythm guitar and drums",
+    "text": "Greasy instrumental funk track with trumpets, trombone, electric bass, rhythm guitar and drums, at 102 BPM, no vocals"
+  },
+  {
+    "id": 28,
+    "genre": "funk",
+    "tempo_bpm": 114,
+    "instrumentation": "electric piano, syncopated bass, guitar and drums",
+    "text": "Upbeat instrumental funk track with electric piano, syncopated bass, guitar and drums, at 114 BPM, no vocals"
+  },
+  {
+    "id": 29,
+    "genre": "funk",
+    "tempo_bpm": 116,
+    "instrumentation": "synth bass, talk-box guitar, horns and drums",
+    "text": "Groovy instrumental funk track with synth bass, talk-box guitar, horns and drums, at 116 BPM, no vocals"
+  },
+  {
+    "id": 30,
+    "genre": "latin",
+    "tempo_bpm": 96,
+    "instrumentation": "congas, bongos, piano and trumpets",
+    "text": "Warm instrumental latin track with congas, bongos, piano and trumpets, at 96 BPM, no vocals"
+  },
+  {
+    "id": 31,
+    "genre": "latin",
+    "tempo_bpm": 112,
+    "instrumentation": "nylon-string guitar, cajon and shaker",
+    "text": "Breezy instrumental latin track with nylon-string guitar, cajon and shaker, at 112 BPM, no vocals"
+  },
+  {
+    "id": 32,
+    "genre": "latin",
+    "tempo_bpm": 124,
+    "instrumentation": "timbales, piano montuno, bass and trumpets",
+    "text": "Danceable instrumental latin track with timbales, piano montuno, bass and trumpets, at 124 BPM, no vocals"
+  },
+  {
+    "id": 33,
+    "genre": "latin",
+    "tempo_bpm": 122,
+    "instrumentation": "bossa nova nylon guitar, brushed drums and flute",
+    "text": "Sultry instrumental latin track with bossa nova nylon guitar, brushed drums and flute, at 122 BPM, no vocals"
+  },
+  {
+    "id": 34,
+    "genre": "latin",
+    "tempo_bpm": 98,
+    "instrumentation": "marimba, congas, bass and trumpet",
+    "text": "Festive instrumental latin track with marimba, congas, bass and trumpet, at 98 BPM, no vocals"
+  },
+  {
+    "id": 35,
+    "genre": "folk",
+    "tempo_bpm": 136,
+    "instrumentation": "acoustic guitar, fiddle and upright bass",
+    "text": "Lilting instrumental folk track with acoustic guitar, fiddle and upright bass, at 136 BPM, no vocals"
+  },
+  {
+    "id": 36,
+    "genre": "folk",
+    "tempo_bpm": 116,
+    "instrumentation": "banjo, mandolin and acoustic guitar",
+    "text": "Cheerful instrumental folk track with banjo, mandolin and acoustic guitar, at 116 BPM, no vocals"
+  },
+  {
+    "id": 37,
+    "genre": "folk",
+    "tempo_bpm": 96,
+    "instrumentation": "acoustic guitar and harmonica",
+    "text": "Gentle instrumental folk track with acoustic guitar and harmonica, at 96 BPM, no vocals"
+  },
+  {
+    "id": 38,
+    "genre": "folk",
+    "tempo_bpm": 120,
+    "instrumentation": "accordion, acoustic guitar and double bass",
+    "text": "Rustic instrumental folk track with accordion, acoustic guitar and double bass, at 120 BPM, no vocals"
+  },
+  {
+    "id": 39,
+    "genre": "folk",
+    "tempo_bpm": 140,
+    "instrumentation": "ukulele, acoustic guitar and light percussion",
+    "text": "Earthy instrumental folk track with ukulele, acoustic guitar and light percussion, at 140 BPM, no vocals"
+  }
+]

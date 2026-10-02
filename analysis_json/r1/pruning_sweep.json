@@ -1,0 +1,554 @@
+{
+ "n_boot": 1000,
+ "seed": 0,
+ "rows": [
+  {
+   "reward": "beat alignment",
+   "method": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "rule": "argmax",
+   "n": 160,
+   "reward_full": {
+    "mean": 0.4151800351942315,
+    "ci": [
+     0.39888631978248745,
+     0.43085963920787657
+    ]
+   },
+   "pfc": 2.051093265535542,
+   "realism_w1": 0.008225418249159594,
+   "travel_m": 4.613179577887058,
+   "nfe": [
+    12800
+   ],
+   "source": "results/phase2b_a002_metrics.json"
+  },
+  {
+   "reward": "beat alignment",
+   "method": "chunk pruning M=1",
+   "N": 32,
+   "rule": "argmax",
+   "n": 160,
+   "reward_full": {
+    "mean": 0.4727596035289327,
+    "ci": [
+     0.45330606599085715,
+     0.4917464017074681
+    ]
+   },
+   "pfc": 1.7346478786350872,
+   "realism_w1": 0.00780800872000686,
+   "travel_m": 4.391876887623221,
+   "nfe": [
+    12800
+   ],
+   "source": "results/r1_prune_ba_M1_metrics.json"
+  },
+  {
+   "reward": "beat alignment",
+   "method": "chunk pruning M=16 (N/2)",
+   "N": 32,
+   "rule": "argmax",
+   "n": 160,
+   "reward_full": {
+    "mean": 0.3862690484770657,
+    "ci": [
+     0.37290583601360516,
+     0.3999364681246675
+    ]
+   },
+   "pfc": 1.8013636873774885,
+   "realism_w1": 0.00763169553012476,
+   "travel_m": 4.5607030574698,
+   "nfe": [
+    12800
+   ],
+   "source": "results/r1_prune_ba_M16_metrics.json"
+  },
+  {
+   "reward": "repetition",
+   "method": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "rule": "argmax",
+   "n": 160,
+   "reward_full": {
+    "mean": 0.8873822552151978,
+    "ci": [
+     0.7925309275975451,
+     0.9751406555075663
+    ]
+   },
+   "pfc": 1.3596128780477557,
+   "realism_w1": 0.0077056471597904035,
+   "travel_m": 3.8790933763608337,
+   "nfe": [
+    12800
+   ],
+   "source": "results/phase3_rep_a002_metrics.json"
+  },
+  {
+   "reward": "repetition",
+   "method": "chunk pruning M=1",
+   "N": 32,
+   "rule": "argmax",
+   "n": 160,
+   "reward_full": {
+    "mean": 0.8503515621065162,
+    "ci": [
+     0.7581911492464133,
+     0.9503487663762644
+    ]
+   },
+   "pfc": 1.622879480223105,
+   "realism_w1": 0.008077140263862184,
+   "travel_m": 4.6051474458538,
+   "nfe": [
+    12800
+   ],
+   "source": "results/r1_prune_rep_M1_metrics.json"
+  },
+  {
+   "reward": "repetition",
+   "method": "chunk pruning M=16 (N/2)",
+   "N": 32,
+   "rule": "argmax",
+   "n": 160,
+   "reward_full": {
+    "mean": 0.9157878188882023,
+    "ci": [
+     0.8252102168125567,
+     1.007923664493719
+    ]
+   },
+   "pfc": 1.4342318842182067,
+   "realism_w1": 0.008134006225087,
+   "travel_m": 4.246905600768514,
+   "nfe": [
+    12800
+   ],
+   "source": "results/r1_prune_rep_M16_metrics.json"
+  },
+  {
+   "reward": "prompt adherence",
+   "method": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "rule": "argmax",
+   "n": 80,
+   "reward_full": {
+    "mean": 0.5507301737035434,
+    "ci": [
+     0.5349895749572195,
+     0.5656012736303542
+    ]
+   },
+   "seed_diversity": 0.051609846949577334,
+   "decode_calls": 128.0,
+   "nfe": [
+    1024
+   ],
+   "tempo_reward": 0.8942307692307693,
+   "tempo_reward_n": 78,
+   "frac_energy_above_8k": 0.00667841976969612,
+   "frac_energy_above_8k_n": 80,
+   "seam_ratio": 1.269215183208386,
+   "seam_ratio_n": 80,
+   "aes_PQ": 8.14836853146553,
+   "aes_PQ_n": 80,
+   "clap_terminal": 0.5507301737035434,
+   "clap_terminal_n": 80,
+   "source": "results/m3/samples/greedy_chunk/32 logs"
+  },
+  {
+   "reward": "prompt adherence",
+   "method": "chunk pruning M=1",
+   "N": 32,
+   "rule": "argmax",
+   "n": 80,
+   "reward_full": {
+    "mean": 0.5635600828472864,
+    "ci": [
+     0.5506546702660012,
+     0.576897089387392
+    ]
+   },
+   "seed_diversity": 0.04901854395866394,
+   "decode_calls": 128.0,
+   "nfe": [
+    1024
+   ],
+   "tempo_reward": 0.9487179487179487,
+   "tempo_reward_n": 78,
+   "frac_energy_above_8k": 0.006415947352434159,
+   "frac_energy_above_8k_n": 80,
+   "seam_ratio": 1.2408835639556248,
+   "seam_ratio_n": 80,
+   "aes_PQ": 8.138013172149659,
+   "aes_PQ_n": 80,
+   "clap_terminal": 0.5635600828472864,
+   "clap_terminal_n": 80,
+   "source": "results/r1/samples_prune_clap_M1 logs"
+  },
+  {
+   "reward": "prompt adherence",
+   "method": "chunk pruning M=16 (N/2)",
+   "N": 32,
+   "rule": "argmax",
+   "n": 80,
+   "reward_full": {
+    "mean": 0.5431691975553505,
+    "ci": [
+     0.5260672836645143,
+     0.558452429649187
+    ]
+   },
+   "seed_diversity": 0.055270084738731386,
+   "decode_calls": 128.0,
+   "nfe": [
+    1024
+   ],
+   "tempo_reward": 0.934375,
+   "tempo_reward_n": 80,
+   "frac_energy_above_8k": 0.006106080970903349,
+   "frac_energy_above_8k_n": 80,
+   "seam_ratio": 1.3223189406096936,
+   "seam_ratio_n": 80,
+   "aes_PQ": 8.137616753578186,
+   "aes_PQ_n": 80,
+   "clap_terminal": 0.5431691975553504,
+   "clap_terminal_n": 80,
+   "source": "results/r1/samples_prune_clap_MN2 logs"
+  },
+  {
+   "reward": "motif recurrence",
+   "method": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "rule": "argmax",
+   "n": 80,
+   "reward_full": {
+    "mean": 0.918136155859538,
+    "ci": [
+     0.9078344888710022,
+     0.927304552426546
+    ]
+   },
+   "seed_diversity": 0.06336413621902466,
+   "decode_calls": 64.0,
+   "nfe": [
+    1024
+   ],
+   "tempo_reward": 0.925,
+   "tempo_reward_n": 80,
+   "frac_energy_above_8k": 0.007258235651988798,
+   "frac_energy_above_8k_n": 80,
+   "seam_ratio": 1.279825403292974,
+   "seam_ratio_n": 80,
+   "aes_PQ": 8.152148795127868,
+   "aes_PQ_n": 80,
+   "clap_terminal": 0.4660345690022603,
+   "clap_terminal_n": 80,
+   "source": "results/m4/samples/greedy_chunk/32 logs"
+  },
+  {
+   "reward": "motif recurrence",
+   "method": "chunk pruning M=1",
+   "N": 32,
+   "rule": "argmax",
+   "n": 80,
+   "reward_full": {
+    "mean": 0.9092915690010075,
+    "ci": [
+     0.8986645314929906,
+     0.9185275423567018
+    ]
+   },
+   "seed_diversity": 0.0685941144824028,
+   "decode_calls": 64.0,
+   "nfe": [
+    1024
+   ],
+   "tempo_reward": 0.9177215189873418,
+   "tempo_reward_n": 79,
+   "frac_energy_above_8k": 0.0072515721975833,
+   "frac_energy_above_8k_n": 80,
+   "seam_ratio": 1.2607082220415273,
+   "seam_ratio_n": 80,
+   "aes_PQ": 8.173810750246048,
+   "aes_PQ_n": 80,
+   "clap_terminal": 0.4649571254239168,
+   "clap_terminal_n": 80,
+   "source": "results/r1/samples_prune_motif_M1 logs"
+  },
+  {
+   "reward": "motif recurrence",
+   "method": "chunk pruning M=16 (N/2)",
+   "N": 32,
+   "rule": "argmax",
+   "n": 80,
+   "reward_full": {
+    "mean": 0.923506815505822,
+    "ci": [
+     0.9157336851311371,
+     0.9311058818429407
+    ]
+   },
+   "seed_diversity": 0.050812216103076936,
+   "decode_calls": 64.0,
+   "nfe": [
+    1024
+   ],
+   "tempo_reward": 0.921875,
+   "tempo_reward_n": 80,
+   "frac_energy_above_8k": 0.007673874107786105,
+   "frac_energy_above_8k_n": 80,
+   "seam_ratio": 1.2545111772914725,
+   "seam_ratio_n": 80,
+   "aes_PQ": 8.16431167125702,
+   "aes_PQ_n": 80,
+   "clap_terminal": 0.46799226551552736,
+   "clap_terminal_n": 80,
+   "source": "results/r1/samples_prune_motif_MN2 logs"
+  }
+ ],
+ "pairs": [
+  {
+   "reward": "beat alignment",
+   "A": "chunk pruning M=8 (N/4, stored)",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": -0.01284916247695951,
+   "ci_lo": -0.021464550406271862,
+   "ci_hi": -0.00411666076595249,
+   "separates": true
+  },
+  {
+   "reward": "beat alignment",
+   "A": "chunk pruning M=1",
+   "B": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": 0.057579568334701146,
+   "ci_lo": 0.050979581479706035,
+   "ci_hi": 0.06548308716182276,
+   "separates": true
+  },
+  {
+   "reward": "beat alignment",
+   "A": "chunk pruning M=1",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": 0.04473040585774164,
+   "ci_lo": 0.039707587948724976,
+   "ci_hi": 0.049904451514102416,
+   "separates": true
+  },
+  {
+   "reward": "beat alignment",
+   "A": "chunk pruning M=16 (N/2)",
+   "B": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": -0.028910986717165854,
+   "ci_lo": -0.03530194064449229,
+   "ci_hi": -0.022928506588059786,
+   "separates": true
+  },
+  {
+   "reward": "beat alignment",
+   "A": "chunk pruning M=16 (N/2)",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": -0.041760149194125365,
+   "ci_lo": -0.05032888150617215,
+   "ci_hi": -0.032761934812431004,
+   "separates": true
+  },
+  {
+   "reward": "repetition",
+   "A": "chunk pruning M=8 (N/4, stored)",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": -0.05931599219329655,
+   "ci_lo": -0.08316006260691211,
+   "ci_hi": -0.03863869181717747,
+   "separates": true
+  },
+  {
+   "reward": "repetition",
+   "A": "chunk pruning M=1",
+   "B": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": -0.03703069310868159,
+   "ci_lo": -0.05004061552812345,
+   "ci_hi": -0.024823989075084683,
+   "separates": true
+  },
+  {
+   "reward": "repetition",
+   "A": "chunk pruning M=1",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": -0.09634668530197814,
+   "ci_lo": -0.12998709137988043,
+   "ci_hi": -0.06696415632817661,
+   "separates": true
+  },
+  {
+   "reward": "repetition",
+   "A": "chunk pruning M=16 (N/2)",
+   "B": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": 0.028405563673004508,
+   "ci_lo": 0.013830989009002223,
+   "ci_hi": 0.046062833577161656,
+   "separates": true
+  },
+  {
+   "reward": "repetition",
+   "A": "chunk pruning M=16 (N/2)",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 160,
+   "diff": -0.030910428520292042,
+   "ci_lo": -0.04188472338020802,
+   "ci_hi": -0.020812654119217767,
+   "separates": true
+  },
+  {
+   "reward": "prompt adherence",
+   "A": "chunk pruning M=8 (N/4, stored)",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": -0.00885549953062099,
+   "ci_lo": -0.01160089777652164,
+   "ci_hi": -0.005885310515891023,
+   "separates": true
+  },
+  {
+   "reward": "prompt adherence",
+   "A": "chunk pruning M=1",
+   "B": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": 0.012829909143743106,
+   "ci_lo": 0.009254834169785817,
+   "ci_hi": 0.01615262570813331,
+   "separates": true
+  },
+  {
+   "reward": "prompt adherence",
+   "A": "chunk pruning M=1",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": 0.003974409613122119,
+   "ci_lo": 0.0013808382641710521,
+   "ci_hi": 0.006658423418400043,
+   "separates": true
+  },
+  {
+   "reward": "prompt adherence",
+   "A": "chunk pruning M=16 (N/2)",
+   "B": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": -0.007560976148192835,
+   "ci_lo": -0.010056440765229373,
+   "ci_hi": -0.004953650893533595,
+   "separates": true
+  },
+  {
+   "reward": "prompt adherence",
+   "A": "chunk pruning M=16 (N/2)",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": -0.01641647567881382,
+   "ci_lo": -0.019881957757930127,
+   "ci_hi": -0.013045868769135377,
+   "separates": true
+  },
+  {
+   "reward": "motif recurrence",
+   "A": "chunk pruning M=8 (N/4, stored)",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": -0.011011677582374275,
+   "ci_lo": -0.017081844241836574,
+   "ci_hi": -0.004121983770878916,
+   "separates": true
+  },
+  {
+   "reward": "motif recurrence",
+   "A": "chunk pruning M=1",
+   "B": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": -0.008844586858530595,
+   "ci_lo": -0.013251001360941471,
+   "ci_hi": -0.004544533465187304,
+   "separates": true
+  },
+  {
+   "reward": "motif recurrence",
+   "A": "chunk pruning M=1",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": -0.01985626444090487,
+   "ci_lo": -0.025441924356784076,
+   "ci_hi": -0.01513962820012337,
+   "separates": true
+  },
+  {
+   "reward": "motif recurrence",
+   "A": "chunk pruning M=16 (N/2)",
+   "B": "chunk pruning M=8 (N/4, stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": 0.005370659646283964,
+   "ci_lo": 7.443345774938879e-05,
+   "ci_hi": 0.011175304744516952,
+   "separates": true
+  },
+  {
+   "reward": "motif recurrence",
+   "A": "chunk pruning M=16 (N/2)",
+   "B": "boundary schedule argmax (stored)",
+   "N": 32,
+   "n_prompts": 40,
+   "n_sequences": 80,
+   "diff": -0.00564101793609031,
+   "ci_lo": -0.009223917719456031,
+   "ci_hi": -0.002229217256044969,
+   "separates": true
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# R1 Phase 3 (2026-09-19): horizon K = 6 on the 4M model, reward R_ba, alpha 0.02, N in {8, 32}; prompts data/prompts_K6.json
+# (K = 6: the paper's 40 source sequences; K = 8: the 16 with >= 8 chunks). base runs at N = 1 (held-out reference).
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [base, bon_argmax, bon_is, fk_noise, greedy_chunk, lattice_smc_notwist]
+Ns: [1, 8, 32]
+seeds: "2000-2003"
+prompts: all
+prompts_file: data/prompts_K6.json
+out_root: samples_r1_k6_ba
+alpha: 0.02
+reward: ba

@@ -1,0 +1,25 @@
+{
+ "n": 500,
+ "total_var": 18.081218083628894,
+ "rmse": 4.2538163822331985,
+ "per_k_var": {
+  "1": 21.17815932791081,
+  "2": 22.00172203279622,
+  "3": 11.172929684437728
+ },
+ "per_k_mean": {
+  "1": -0.173099588202964,
+  "2": -0.07155357320802695,
+  "3": -0.4267012611143576
+ },
+ "between_sequence_var_of_seq_mean": 9.301651892524257,
+ "within_sequence_var_mean": 13.177508707535784,
+ "between_corrected": 4.909148990012329,
+ "within_share": 0.7285762205430676,
+ "per_k_var_after_removing_other_k_sequence_mean": {
+  "1": 19.627405137954195,
+  "2": 18.324226490056805,
+  "3": 21.665007254759555
+ },
+ "note": "the fresh set has exactly one prefix per (source sequence, chunk index); a per-(sequence, k) within component is undefined, so the within-sequence component pools the three chunk indices of a sequence"
+}

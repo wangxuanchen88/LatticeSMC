@@ -1,0 +1,10 @@
+# R1 Phase 3b (2026-09-21): boundary and dense schedules at alpha = 0.01, N = 32, beat alignment, K = 6 (draw rule; argmax in the _argmax twin).
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [lattice_smc_notwist, fk_noise]
+Ns: [32]
+seeds: "2000-2003"
+prompts: all
+prompts_file: data/prompts_K6.json
+out_root: samples_r1_k6_ba_a001
+alpha: 0.01
+reward: ba

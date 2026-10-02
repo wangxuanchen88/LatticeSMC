@@ -1,0 +1,13 @@
+# Amendment X (SPEC 11k): the alpha = 0.02 grid on the scaled base model chunk_dispE_L (37.6 M parameters), reward R_rep.
+# Same prompts, seeds, budgets, method defaults, alpha and resampling generators as the 4M grids
+# (configs/phase2_grid_a002.yaml / phase3_rep_grid_a002.yaml); only the checkpoint (and, for R_rep, the twist retrained
+# from rollouts on this model) changes. R_BA has no learned-twist row (Amendment X names lattice_smc_notwist only).
+ckpt: runs/chunk_dispE_L/ckpt_adopted.pt
+methods: [base, bon_argmax, bon_is, fk_noise, greedy_chunk, lattice_smc, lattice_smc_notwist]
+Ns: [1, 2, 4, 8, 16, 32]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_L_rep_a002
+alpha: 0.02
+twist: data/twist_rep_L/twist_a002.pt
+reward: rep

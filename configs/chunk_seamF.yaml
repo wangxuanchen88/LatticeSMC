@@ -1,0 +1,26 @@
+# Phase 1c candidate F (SPEC Amendments F and G). Same optimizer and schedule as the earlier harness's
+# configs/base.yaml (copied to configs/earlier_harness_base.yaml). total_steps is set from the measured
+# throughput so that one run takes at most 40 minutes on one A6000 (RESULTS.md Phase 1); do not
+# change it between runs afterwards.
+seed: 101
+pairs: pairs_train
+heldout_pairs: pairs_heldout
+n_heldout_monitor: 256
+model:
+  latent_dim: 192
+  ff_size: 384
+  num_layers: 4
+  num_heads: 4
+  dropout: 0.1
+total_steps: 18000
+batch_size: 64
+lr: 4.0e-4
+weight_decay: 0.02
+p_uncond: 0.2
+cond_drop_prob: 0.25
+eval_every: 1000
+save_every: 3000
+loss:
+  repr: relative
+  root_weight: 10.0
+  seam_lambda: 50.0

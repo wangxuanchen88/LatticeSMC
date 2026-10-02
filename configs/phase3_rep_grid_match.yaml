@@ -1,0 +1,12 @@
+# Amendment R: lattice_smc_notwist at the NFE-matched particle counts N (4 + 5M) / 4 for N in {4, 8}, M in {1, 2, 4}: reward R_rep, alpha = 0.02, twist trained on R_rep rollouts for this alpha: 40 prompts x 4 seeds x N in {1, 2, 4, 8, 16, 32} x 7 methods.
+# base runs at N = 1 only (it is the N = 1 method; every other method at N = 1 reproduces it
+# bitwise, tests/test_methods.py). alpha from data/alpha.json, twist from data/twist/twist.pt.
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [lattice_smc_notwist]
+Ns: [9, 14, 24, 18, 28, 48]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_p3_rep_match
+alpha: 0.02
+twist: data/twist_rep/twist_a002.pt
+reward: rep

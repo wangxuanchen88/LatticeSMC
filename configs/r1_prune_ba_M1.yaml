@@ -1,0 +1,10 @@
+# R1 Phase 2 (2026-09-19): chunk pruning with M = 1 at N = 32 (M = 8 = N/4 is the stored samples_p2_a002/greedy_chunk/32 row), reward R_ba, 4M model.
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [greedy_chunk]
+Ns: [32]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_r1_prune_ba_M1
+alpha: 0.02
+reward: ba
+prune_M: 1

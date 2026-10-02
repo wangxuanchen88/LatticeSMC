@@ -1,0 +1,9 @@
+# Phase 2 main grid (SPEC 4 and 6): 40 prompts x 4 seeds x N in {1, 2, 4, 8, 16, 32} x 7 methods.
+# base runs at N = 1 only (it is the N = 1 method; every other method at N = 1 reproduces it
+# bitwise, tests/test_methods.py). alpha from data/alpha.json, twist from data/twist/twist.pt.
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [base, bon_argmax, bon_is, fk_noise, greedy_chunk, lattice_smc, lattice_smc_notwist]
+Ns: [1, 2, 4, 8, 16, 32]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_p2

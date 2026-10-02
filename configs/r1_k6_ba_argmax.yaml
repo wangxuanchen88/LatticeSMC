@@ -1,0 +1,11 @@
+# R1 Phase 3: argmax-return regeneration (same particles and draws) of the boundary and dense schedules at K = 6.
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [lattice_smc_notwist, fk_noise]
+Ns: [8, 32]
+seeds: "2000-2003"
+prompts: all
+prompts_file: data/prompts_K6.json
+out_root: samples_r1_k6_ba_argmax
+alpha: 0.02
+reward: ba
+return_rule: argmax

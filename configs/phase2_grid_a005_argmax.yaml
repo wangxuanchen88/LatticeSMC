@@ -1,0 +1,9 @@
+ckpt: runs/chunk_dispE/ckpt_adopted.pt
+methods: [lattice_smc_notwist]
+Ns: [32]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_p2_a005_argmax
+alpha: 0.05
+twist: data/twist/twist_a005.pt
+return_rule: argmax

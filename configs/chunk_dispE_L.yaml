@@ -1,0 +1,28 @@
+# Amendment X (SPEC 11k): chunk_dispE scaled in width. Identical to configs/chunk_dispE.yaml (Amendment E
+# representation and losses, same pairs, seed, batch, optimizer, schedule, save_every) except the model block and
+# total_steps. The amendment names latent 512 / ff 1024 / 8 layers / 8 heads (47.1 M parameters, above the 30-40 M
+# range), so the nearest config in range is taken by changing one knob: 6 layers = 37,641,367 parameters (E: 4,055,191).
+# total_steps is set from the measured throughput probe (RESULTS.md Phase X: 300 steps in 165 s, 1.82 steps/s including two
+# monitor passes, so 36,000 steps is projected at 5.5 h; 39,300 would be the 6 h limit) and kept a multiple of save_every.
+seed: 101
+pairs: pairs_train
+heldout_pairs: pairs_heldout
+n_heldout_monitor: 256
+model:
+  latent_dim: 512
+  ff_size: 1024
+  num_layers: 6
+  num_heads: 8
+  dropout: 0.1
+total_steps: 36000
+batch_size: 64
+lr: 4.0e-4
+weight_decay: 0.02
+p_uncond: 0.2
+cond_drop_prob: 0.25
+eval_every: 1000
+save_every: 3000
+loss:
+  repr: disp
+  root_weight: 1.0
+  seam_lambda: 0.0

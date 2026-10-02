@@ -1,0 +1,32 @@
+{
+ "prompts": [
+  4,
+  8,
+  9,
+  12,
+  16,
+  21,
+  25,
+  30,
+  33,
+  35
+ ],
+ "seeds": [
+  2000,
+  2001
+ ],
+ "n_k8": 20,
+ "n_k4": 20,
+ "seam_ratio_k8_mean": 1.237237591402871,
+ "seam_ratio_k4_mean": 1.261142239967982,
+ "seam_ratio_rel_change": -0.018954760063954246,
+ "seam_ratio_k8_per_seam_mean": null,
+ "tempo_within5_k8": 0.85,
+ "tempo_within5_k4": 0.95,
+ "tempo_rel_change": -0.10526315789473684,
+ "clap_terminal_k8_mean": 0.45367895366804156,
+ "clap_terminal_k4_mean": 0.4438620364546157,
+ "frac_energy_above_8k_k8": 0.00471975753607694,
+ "frac_energy_above_8k_k4": 0.004942298383684829,
+ "pass": false
+}

@@ -1,0 +1,26 @@
+# Chunk-conditioned base model (SPEC 2.1-2.3). Same optimizer and schedule as the earlier harness's
+# configs/base.yaml (copied to configs/earlier_harness_base.yaml). total_steps is set from the measured
+# throughput so that one run takes at most 40 minutes on one A6000 (RESULTS.md Phase 1); do not
+# change it between runs afterwards.
+seed: 101
+pairs: pairs_train
+heldout_pairs: pairs_heldout
+n_heldout_monitor: 256
+model:
+  latent_dim: 192
+  ff_size: 384
+  num_layers: 4
+  num_heads: 4
+  dropout: 0.1
+total_steps: 12000
+batch_size: 64
+lr: 4.0e-4
+weight_decay: 0.02
+p_uncond: 0.2
+cond_drop_prob: 0.25
+eval_every: 1000
+save_fracs: [0.5, 0.75, 1.0]
+loss:
+  repr: relative
+  root_weight: 1.0
+  seam_lambda: 0.0

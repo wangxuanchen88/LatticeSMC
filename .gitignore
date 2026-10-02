@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+runs/
+samples*/
+results/
+logs/
+data/cache/
+data/twist*/
+edge/data/
+third_party/
+*.npz
+*.wav
+*.pt
+*.ckpt
+.hf-cache/

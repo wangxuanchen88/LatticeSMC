@@ -1,0 +1,19 @@
+% paired differences at N = 32, mean [95% bootstrap over 40 conditions]; * = interval excludes zero
+\begin{tabular}{llll}
+\toprule
+Reward & Model & Comparison (A $-$ B) & Difference [95\% CI] \\
+\midrule
+beat alignment & 4M & dense argmax $-$ chunk pruning & $+0.026$ $[+0.015, +0.039]$$^*$ \\
+beat alignment & 4M & dense argmax $-$ boundary argmax & $+0.013$ $[+0.003, +0.025]$$^*$ \\
+beat alignment & 38M & dense argmax $-$ chunk pruning & $+0.032$ $[+0.018, +0.047]$$^*$ \\
+beat alignment & 38M & dense argmax $-$ boundary argmax & $+0.017$ $[+0.005, +0.030]$$^*$ \\
+repetition & 4M & dense argmax $-$ chunk pruning & $+0.075$ $[+0.052, +0.100]$$^*$ \\
+repetition & 4M & dense argmax $-$ boundary argmax & $+0.016$ $[-0.008, +0.034]$ \\
+repetition & 38M & dense argmax $-$ chunk pruning & $+0.078$ $[+0.062, +0.096]$$^*$ \\
+repetition & 38M & dense argmax $-$ boundary argmax & $+0.051$ $[+0.041, +0.061]$$^*$ \\
+prompt adherence & music & dense draw $-$ boundary draw & $-0.002$ $[-0.007, +0.003]$ \\
+prompt adherence & music & dense argmax $-$ boundary argmax & $-0.000$ $[-0.004, +0.004]$ \\
+motif recurrence & music & dense draw $-$ boundary draw & $+0.006$ $[-0.003, +0.015]$ \\
+motif recurrence & music & dense argmax $-$ boundary argmax & $+0.002$ $[-0.003, +0.008]$ \\
+\bottomrule
+\end{tabular}

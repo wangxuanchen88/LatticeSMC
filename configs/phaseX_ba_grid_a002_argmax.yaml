@@ -1,0 +1,10 @@
+# Amendment X: argmax-return regeneration of lattice_smc_notwist at N in {8, 32} (same particles and draws, Amendment U).
+ckpt: runs/chunk_dispE_L/ckpt_adopted.pt
+methods: [lattice_smc_notwist]
+Ns: [8, 32]
+seeds: "2000-2003"
+prompts: all
+out_root: samples_L_ba_a002_argmax
+alpha: 0.02
+reward: ba
+return_rule: argmax
