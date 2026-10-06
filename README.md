@@ -11,7 +11,7 @@ School of Computer Science, The University of Sydney
 
 </div>
 
-Code for the paper *LatticeSMC: Where to Spend Inference-Time Compute in Chunked Sequence Generators* (arXiv: ARXIV_ID_TBD). If you use it, please cite the paper (BibTeX at the end of this file, `CITATION.cff`).
+Code for the paper *LatticeSMC: Where to Spend Inference-Time Compute in Chunked Sequence Generators* ([arXiv: ARXIV_ID_TBD](https://arxiv.org/abs/2610.02774)). If you use it, please cite the paper (BibTeX at the end of this file, `CITATION.cff`).
 
 This repository contains the sampling harness for both testbeds, the reward and held-out metric implementations, the data-preparation and analysis scripts that produce every table and figure of the paper (including the pruning-strength sweep, the horizon study at K = 6 and K = 8, the per-boundary-tilt runs at alpha = 0.01 and the K = 8 music qualification), the configs of every run and the stored analysis JSONs from which the paper's tables are reproduced without any sample. Checkpoints and generated samples are not included; the checkpoints are released at camera-ready (`MODELS.md`). License: Apache 2.0 (`LICENSE`).
 
@@ -125,7 +125,7 @@ Every sequence is determined by (checkpoint, prompt, seed, method, N); `tests/` 
 @article{wang2026latticesmc,
   title   = {LatticeSMC: Where to Spend Inference-Time Compute in Chunked Sequence Generators},
   author  = {Wang, Xuanchen and Wang, Heng and Cai, Weidong},
-  journal = {arXiv preprint arXiv:ARXIV_ID_TBD},
+  journal = {https://arxiv.org/abs/2610.02774},
   year    = {2026}
 }
 ```
